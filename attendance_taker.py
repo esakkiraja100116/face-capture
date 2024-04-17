@@ -152,9 +152,17 @@ class Face_Recognizer:
                 kk = 1
 
                 # 2.  Detect faces for frame X
-                img_rd = dlib.load_rgb_image('data/check/'+img_file)
+                # img_rd = dlib.load_rgb_image()
+                
+                #  Load the image
+                img_rd = cv2.imread('data/check/'+img_file)
+                # Convert the image to grayscale
+                gray_image = cv2.cvtColor(img_rd, cv2.COLOR_BGR2GRAY)
+                # Perform histogram equalization to improve contrast
+                image = cv2.equalizeHist(gray_image)
+    
                 detector = dlib.get_frontal_face_detector()
-                faces = detector(img_rd)
+                faces = detector(image)
                 # if faces == None:
                 #     return "Face not found"  
 
