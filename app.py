@@ -78,7 +78,7 @@ def detect_face(image_path):
 def index():
     return {
         'success' : True,
-        'Message' : 'Hello world'
+        'message' : 'Hello world'
     }, 200
 
 @app.route('/upload', methods=['POST'])
@@ -133,7 +133,7 @@ def upload_images():
         extract_face.main(user_id) 
         return {
             'success': True,
-            'Message': 'Images uploaded successfully',
+            'message': 'Images uploaded successfully',
         }, 200
     else:
         # If any image does not contain a face, delete the folder and return an error
