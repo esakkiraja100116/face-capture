@@ -10,6 +10,7 @@ This project is a face recognition-based attendance system that uses OpenCV and 
 3. Download the dlib models from https://drive.google.com/drive/folders/12It2jeNQOxwStBxtagL1vvIJokoz-DL4?usp=sharing and place the data folder inside the repo
 4. Make sure cmake is installed to detect the faces
 5. ``` sudo apt-get install libgl1-mesa-glx ```
+6. To reload apache2 : ``` sudo systemctl restart apache2 ```
 ## Usage
 
 1. Put faces in data folder.

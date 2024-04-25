@@ -51,3 +51,15 @@
 [Fri Apr 19 18:02:50.736264 2024] [wsgi:error] [pid 81897:tid 140021236815424] [remote 143.110.222.166:41526]   File "/var/www/face/venv/lib/python3.10/site-packages/cv2/__init__.py", line 76, in bootstrap
 [Fri Apr 19 18:02:50.736267 2024] [wsgi:error] [pid 81897:tid 140021236815424] [remote 143.110.222.166:41526]     raise ImportError('ERROR: recursion is detected during loading of "cv2" binary extensions. Check OpenCV installation.')
 [Fri Apr 19 18:02:50.736281 2024] [wsgi:error] [pid 81897:tid 140021236815424] [remote 143.110.222.166:41526] ImportError: ERROR: recursion is detected during loading of "cv2" binary extensions. Check OpenCV installation.
+[Thu Apr 25 18:24:30.249303 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 45.115.225.71:41356] mod_wsgi (pid=35478): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 18:24:30.249690 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 45.115.225.71:41356] mod_wsgi (pid=35478): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 18:24:30.250259 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 45.115.225.71:41356] Traceback (most recent call last):
+[Thu Apr 25 18:24:30.250358 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 45.115.225.71:41356]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Thu Apr 25 18:24:30.250400 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 45.115.225.71:41356]     from app import app as application
+[Thu Apr 25 18:24:30.250439 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 45.115.225.71:41356]   File "/var/www/face/face/app.py", line 10, in <module>
+[Thu Apr 25 18:24:30.250474 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 45.115.225.71:41356]     from extraction_face_to_csv import extraction
+[Thu Apr 25 18:24:30.250512 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 45.115.225.71:41356]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Thu Apr 25 18:24:30.250548 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 45.115.225.71:41356]     class extraction():
+[Thu Apr 25 18:24:30.250584 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 45.115.225.71:41356]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Thu Apr 25 18:24:30.250620 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 45.115.225.71:41356]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Thu Apr 25 18:24:30.250680 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 45.115.225.71:41356] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
