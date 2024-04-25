@@ -79,7 +79,7 @@ def index():
     return {
         'success' : True,
         'Message' : 'Hello world'
-    }
+    }, 200
 
 @app.route('/upload', methods=['POST'])
 def upload_images():
@@ -134,14 +134,14 @@ def upload_images():
         return {
             'success': True,
             'Message': 'Images uploaded successfully',
-        }
+        }, 200
     else:
         # If any image does not contain a face, delete the folder and return an error
         # shutil.rmtree(folder)
         return {
             'success': False,
             'message': 'Face not detected in given images.',
-        }
+        }, 400
 
 
 @app.route('/delete_user', methods=['DELETE'])
@@ -173,12 +173,12 @@ def delete_userid():
         return {
             'success': True,
             'message': f'Files for user ID : {user_id} deleted!'
-        }
+        }, 200
     else:
         return {
             'success': False,
             'message': f'No files found for user ID : {user_id} or Invalid userID!'
-        }
+        }, 400
 
 @app.route('/take_attendance', methods=['POST'])
 def take_attendance():
@@ -187,7 +187,7 @@ def take_attendance():
         return {
             'success': False,
             'message': 'User ID not received!'
-        }
+        }, 400
         
     images = request.files.getlist('image')
         
@@ -221,12 +221,12 @@ def take_attendance():
         return {
             'success': False,
             'message': 'user not found',
-        }
+        }, 400
     else:
         return {
             'success': True,
             'message': 'User_ID and the capture Matched!!'
-        }
+        }, 200
         
 
 
