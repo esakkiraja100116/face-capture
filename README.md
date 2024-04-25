@@ -1,3 +1,4 @@
+
 # Face Recognition Based Attendance System
 
 This project is a face recognition-based attendance system that uses OpenCV and Python. The system uses a camera to capture images of individuals and then compares them with the images in the database to mark attendance.
@@ -8,7 +9,7 @@ This project is a face recognition-based attendance system that uses OpenCV and 
 2. Install the required packages using ``pip install -r requirements.txt``.
 3. Download the dlib models from https://drive.google.com/drive/folders/12It2jeNQOxwStBxtagL1vvIJokoz-DL4?usp=sharing and place the data folder inside the repo
 4. Make sure cmake is installed to detect the faces
-
+5. ``` sudo apt-get install libgl1-mesa-glx ```
 ## Usage
 
 1. Put faces in data folder.

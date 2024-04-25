@@ -1,0 +1,53 @@
+[Fri Apr 19 17:32:19.622415 2024] [wsgi:error] [pid 81897:tid 140021261993536] [remote 45.79.168.172:49714] mod_wsgi (pid=81897): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 19 17:32:19.622494 2024] [wsgi:error] [pid 81897:tid 140021261993536] [remote 45.79.168.172:49714] mod_wsgi (pid=81897): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 19 17:32:19.622807 2024] [wsgi:error] [pid 81897:tid 140021261993536] [remote 45.79.168.172:49714] Traceback (most recent call last):
+[Fri Apr 19 17:32:19.622831 2024] [wsgi:error] [pid 81897:tid 140021261993536] [remote 45.79.168.172:49714]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 19 17:32:19.622834 2024] [wsgi:error] [pid 81897:tid 140021261993536] [remote 45.79.168.172:49714]     from app import app as application
+[Fri Apr 19 17:32:19.622839 2024] [wsgi:error] [pid 81897:tid 140021261993536] [remote 45.79.168.172:49714]   File "/var/www/face/face/app.py", line 6, in <module>
+[Fri Apr 19 17:32:19.622841 2024] [wsgi:error] [pid 81897:tid 140021261993536] [remote 45.79.168.172:49714]     from libs import libs
+[Fri Apr 19 17:32:19.622845 2024] [wsgi:error] [pid 81897:tid 140021261993536] [remote 45.79.168.172:49714]   File "/var/www/face/face/libs.py", line 4, in <module>
+[Fri Apr 19 17:32:19.622848 2024] [wsgi:error] [pid 81897:tid 140021261993536] [remote 45.79.168.172:49714]     from PIL import Image
+[Fri Apr 19 17:32:19.622858 2024] [wsgi:error] [pid 81897:tid 140021261993536] [remote 45.79.168.172:49714] ModuleNotFoundError: No module named 'PIL'
+[Fri Apr 19 17:32:31.180328 2024] [wsgi:error] [pid 81897:tid 140021236815424] [remote 45.79.172.21:62734] mod_wsgi (pid=81897): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 19 17:32:31.180692 2024] [wsgi:error] [pid 81897:tid 140021236815424] [remote 45.79.172.21:62734] mod_wsgi (pid=81897): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 19 17:32:31.180787 2024] [wsgi:error] [pid 81897:tid 140021236815424] [remote 45.79.172.21:62734] Traceback (most recent call last):
+[Fri Apr 19 17:32:31.180808 2024] [wsgi:error] [pid 81897:tid 140021236815424] [remote 45.79.172.21:62734]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 19 17:32:31.180812 2024] [wsgi:error] [pid 81897:tid 140021236815424] [remote 45.79.172.21:62734]     from app import app as application
+[Fri Apr 19 17:32:31.180817 2024] [wsgi:error] [pid 81897:tid 140021236815424] [remote 45.79.172.21:62734]   File "/var/www/face/face/app.py", line 6, in <module>
+[Fri Apr 19 17:32:31.180820 2024] [wsgi:error] [pid 81897:tid 140021236815424] [remote 45.79.172.21:62734]     from libs import libs
+[Fri Apr 19 17:32:31.180824 2024] [wsgi:error] [pid 81897:tid 140021236815424] [remote 45.79.172.21:62734]   File "/var/www/face/face/libs.py", line 4, in <module>
+[Fri Apr 19 17:32:31.180827 2024] [wsgi:error] [pid 81897:tid 140021236815424] [remote 45.79.172.21:62734]     from PIL import Image
+[Fri Apr 19 17:32:31.180840 2024] [wsgi:error] [pid 81897:tid 140021236815424] [remote 45.79.172.21:62734] ModuleNotFoundError: No module named 'PIL'
+[Fri Apr 19 17:46:04.135553 2024] [wsgi:error] [pid 81897:tid 140021261993536] /var/www/face/face/extraction_face_to_csv.py:92: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+[Fri Apr 19 17:46:04.135589 2024] [wsgi:error] [pid 81897:tid 140021261993536]   if features_mean_personX is not -1:
+[Fri Apr 19 17:46:04.255661 2024] [wsgi:error] [pid 81897:tid 140021261993536] [remote 5.181.190.250:46802] mod_wsgi (pid=81897): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 19 17:46:04.255726 2024] [wsgi:error] [pid 81897:tid 140021261993536] [remote 5.181.190.250:46802] mod_wsgi (pid=81897): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 19 17:46:04.256608 2024] [wsgi:error] [pid 81897:tid 140021261993536] [remote 5.181.190.250:46802] Traceback (most recent call last):
+[Fri Apr 19 17:46:04.256651 2024] [wsgi:error] [pid 81897:tid 140021261993536] [remote 5.181.190.250:46802]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 19 17:46:04.256664 2024] [wsgi:error] [pid 81897:tid 140021261993536] [remote 5.181.190.250:46802]     from app import app as application
+[Fri Apr 19 17:46:04.256669 2024] [wsgi:error] [pid 81897:tid 140021261993536] [remote 5.181.190.250:46802]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 19 17:46:04.256673 2024] [wsgi:error] [pid 81897:tid 140021261993536] [remote 5.181.190.250:46802]     from extraction_face_to_csv import extraction
+[Fri Apr 19 17:46:04.256677 2024] [wsgi:error] [pid 81897:tid 140021261993536] [remote 5.181.190.250:46802]   File "/var/www/face/face/extraction_face_to_csv.py", line 8, in <module>
+[Fri Apr 19 17:46:04.256680 2024] [wsgi:error] [pid 81897:tid 140021261993536] [remote 5.181.190.250:46802]     import cv2
+[Fri Apr 19 17:46:04.256685 2024] [wsgi:error] [pid 81897:tid 140021261993536] [remote 5.181.190.250:46802]   File "/var/www/face/venv/lib/python3.10/site-packages/cv2/__init__.py", line 181, in <module>
+[Fri Apr 19 17:46:04.256688 2024] [wsgi:error] [pid 81897:tid 140021261993536] [remote 5.181.190.250:46802]     bootstrap()
+[Fri Apr 19 17:46:04.256692 2024] [wsgi:error] [pid 81897:tid 140021261993536] [remote 5.181.190.250:46802]   File "/var/www/face/venv/lib/python3.10/site-packages/cv2/__init__.py", line 153, in bootstrap
+[Fri Apr 19 17:46:04.256695 2024] [wsgi:error] [pid 81897:tid 140021261993536] [remote 5.181.190.250:46802]     native_module = importlib.import_module("cv2")
+[Fri Apr 19 17:46:04.256700 2024] [wsgi:error] [pid 81897:tid 140021261993536] [remote 5.181.190.250:46802]   File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+[Fri Apr 19 17:46:04.256703 2024] [wsgi:error] [pid 81897:tid 140021261993536] [remote 5.181.190.250:46802]     return _bootstrap._gcd_import(name[level:], package, level)
+[Fri Apr 19 17:46:04.256717 2024] [wsgi:error] [pid 81897:tid 140021261993536] [remote 5.181.190.250:46802] ImportError: libGL.so.1: cannot open shared object file: No such file or directory
+[Fri Apr 19 18:02:50.735957 2024] [wsgi:error] [pid 81897:tid 140021236815424] ['/var/www/face/venv/lib/python3.10/site-packages/', '/var/www/face/face/', '/var/www/face/venv/lib/python3.10/site-packages/cv2', '/var/www/face/venv/lib/python3.10/site-packages/', '/var/www/face/face/', '/var/www/face/venv/lib/python3.10/site-packages/', '/var/www/face/face/', '/var/www/face/venv/lib/python3.10/site-packages/', '/var/www/face/face/', '/usr/lib/python310.zip', '/usr/lib/python3.10', '/usr/lib/python3.10/lib-dynload', '/usr/local/lib/python3.10/dist-packages', '/usr/lib/python3/dist-packages']
+[Fri Apr 19 18:02:50.736039 2024] [wsgi:error] [pid 81897:tid 140021236815424] [remote 143.110.222.166:41526] mod_wsgi (pid=81897): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 19 18:02:50.736073 2024] [wsgi:error] [pid 81897:tid 140021236815424] [remote 143.110.222.166:41526] mod_wsgi (pid=81897): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 19 18:02:50.736189 2024] [wsgi:error] [pid 81897:tid 140021236815424] [remote 143.110.222.166:41526] Traceback (most recent call last):
+[Fri Apr 19 18:02:50.736219 2024] [wsgi:error] [pid 81897:tid 140021236815424] [remote 143.110.222.166:41526]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 19 18:02:50.736224 2024] [wsgi:error] [pid 81897:tid 140021236815424] [remote 143.110.222.166:41526]     from app import app as application
+[Fri Apr 19 18:02:50.736228 2024] [wsgi:error] [pid 81897:tid 140021236815424] [remote 143.110.222.166:41526]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 19 18:02:50.736232 2024] [wsgi:error] [pid 81897:tid 140021236815424] [remote 143.110.222.166:41526]     from extraction_face_to_csv import extraction
+[Fri Apr 19 18:02:50.736237 2024] [wsgi:error] [pid 81897:tid 140021236815424] [remote 143.110.222.166:41526]   File "/var/www/face/face/extraction_face_to_csv.py", line 8, in <module>
+[Fri Apr 19 18:02:50.736251 2024] [wsgi:error] [pid 81897:tid 140021236815424] [remote 143.110.222.166:41526]     import cv2
+[Fri Apr 19 18:02:50.736256 2024] [wsgi:error] [pid 81897:tid 140021236815424] [remote 143.110.222.166:41526]   File "/var/www/face/venv/lib/python3.10/site-packages/cv2/__init__.py", line 181, in <module>
+[Fri Apr 19 18:02:50.736259 2024] [wsgi:error] [pid 81897:tid 140021236815424] [remote 143.110.222.166:41526]     bootstrap()
+[Fri Apr 19 18:02:50.736264 2024] [wsgi:error] [pid 81897:tid 140021236815424] [remote 143.110.222.166:41526]   File "/var/www/face/venv/lib/python3.10/site-packages/cv2/__init__.py", line 76, in bootstrap
+[Fri Apr 19 18:02:50.736267 2024] [wsgi:error] [pid 81897:tid 140021236815424] [remote 143.110.222.166:41526]     raise ImportError('ERROR: recursion is detected during loading of "cv2" binary extensions. Check OpenCV installation.')
+[Fri Apr 19 18:02:50.736281 2024] [wsgi:error] [pid 81897:tid 140021236815424] [remote 143.110.222.166:41526] ImportError: ERROR: recursion is detected during loading of "cv2" binary extensions. Check OpenCV installation.
