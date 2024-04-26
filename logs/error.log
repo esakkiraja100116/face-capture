@@ -1116,3 +1116,47 @@
 [Fri Apr 26 08:56:16.834873 2024] [wsgi:error] [pid 44827:tid 139647284500032] [remote 122.178.48.245:1537]   File "/var/www/face/face/app.py", line 37, in validUser
 [Fri Apr 26 08:56:16.834909 2024] [wsgi:error] [pid 44827:tid 139647284500032] [remote 122.178.48.245:1537]     person_list = os.listdir("data/export/")
 [Fri Apr 26 08:56:16.834945 2024] [wsgi:error] [pid 44827:tid 139647284500032] [remote 122.178.48.245:1537] FileNotFoundError: [Errno 2] No such file or directory: 'data/export/'
+[Fri Apr 26 09:01:33.099330 2024] [wsgi:error] [pid 45234:tid 140405470848576] /var/www/face/face/extraction_face_to_csv.py:92: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+[Fri Apr 26 09:01:33.099484 2024] [wsgi:error] [pid 45234:tid 140405470848576]   if features_mean_personX is not -1:
+[Fri Apr 26 09:01:51.470145 2024] [wsgi:error] [pid 45234:tid 140405437277760] [remote 122.178.48.245:1692] [2024-04-26 09:01:51,468] ERROR in app: Exception on /take_attendance [POST]
+[Fri Apr 26 09:01:51.470437 2024] [wsgi:error] [pid 45234:tid 140405437277760] [remote 122.178.48.245:1692] Traceback (most recent call last):
+[Fri Apr 26 09:01:51.470493 2024] [wsgi:error] [pid 45234:tid 140405437277760] [remote 122.178.48.245:1692]   File "/var/www/face/venv/lib/python3.10/site-packages/flask/app.py", line 1473, in wsgi_app
+[Fri Apr 26 09:01:51.470531 2024] [wsgi:error] [pid 45234:tid 140405437277760] [remote 122.178.48.245:1692]     response = self.full_dispatch_request()
+[Fri Apr 26 09:01:51.470566 2024] [wsgi:error] [pid 45234:tid 140405437277760] [remote 122.178.48.245:1692]   File "/var/www/face/venv/lib/python3.10/site-packages/flask/app.py", line 882, in full_dispatch_request
+[Fri Apr 26 09:01:51.470601 2024] [wsgi:error] [pid 45234:tid 140405437277760] [remote 122.178.48.245:1692]     rv = self.handle_user_exception(e)
+[Fri Apr 26 09:01:51.470636 2024] [wsgi:error] [pid 45234:tid 140405437277760] [remote 122.178.48.245:1692]   File "/var/www/face/venv/lib/python3.10/site-packages/flask/app.py", line 880, in full_dispatch_request
+[Fri Apr 26 09:01:51.470671 2024] [wsgi:error] [pid 45234:tid 140405437277760] [remote 122.178.48.245:1692]     rv = self.dispatch_request()
+[Fri Apr 26 09:01:51.470706 2024] [wsgi:error] [pid 45234:tid 140405437277760] [remote 122.178.48.245:1692]   File "/var/www/face/venv/lib/python3.10/site-packages/flask/app.py", line 865, in dispatch_request
+[Fri Apr 26 09:01:51.470740 2024] [wsgi:error] [pid 45234:tid 140405437277760] [remote 122.178.48.245:1692]     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+[Fri Apr 26 09:01:51.470775 2024] [wsgi:error] [pid 45234:tid 140405437277760] [remote 122.178.48.245:1692]   File "/var/www/face/face/app.py", line 214, in take_attendance
+[Fri Apr 26 09:01:51.470810 2024] [wsgi:error] [pid 45234:tid 140405437277760] [remote 122.178.48.245:1692]     image.save(save_path)
+[Fri Apr 26 09:01:51.470844 2024] [wsgi:error] [pid 45234:tid 140405437277760] [remote 122.178.48.245:1692]   File "/var/www/face/venv/lib/python3.10/site-packages/werkzeug/datastructures/file_storage.py", line 125, in save
+[Fri Apr 26 09:01:51.470879 2024] [wsgi:error] [pid 45234:tid 140405437277760] [remote 122.178.48.245:1692]     dst = open(dst, "wb")
+[Fri Apr 26 09:01:51.470919 2024] [wsgi:error] [pid 45234:tid 140405437277760] [remote 122.178.48.245:1692] FileNotFoundError: [Errno 2] No such file or directory: 'data/check/250adc38-fe16-4508-b5f6-407f9e34c8b5.jpg'
+[Fri Apr 26 09:02:02.334491 2024] [wsgi:error] [pid 45234:tid 140405470848576] [remote 122.178.48.245:1695] [2024-04-26 09:02:02,334] ERROR in app: Exception on /take_attendance [POST]
+[Fri Apr 26 09:02:02.334899 2024] [wsgi:error] [pid 45234:tid 140405470848576] [remote 122.178.48.245:1695] Traceback (most recent call last):
+[Fri Apr 26 09:02:02.334991 2024] [wsgi:error] [pid 45234:tid 140405470848576] [remote 122.178.48.245:1695]   File "/var/www/face/venv/lib/python3.10/site-packages/flask/app.py", line 1473, in wsgi_app
+[Fri Apr 26 09:02:02.335050 2024] [wsgi:error] [pid 45234:tid 140405470848576] [remote 122.178.48.245:1695]     response = self.full_dispatch_request()
+[Fri Apr 26 09:02:02.335100 2024] [wsgi:error] [pid 45234:tid 140405470848576] [remote 122.178.48.245:1695]   File "/var/www/face/venv/lib/python3.10/site-packages/flask/app.py", line 882, in full_dispatch_request
+[Fri Apr 26 09:02:02.335833 2024] [wsgi:error] [pid 45234:tid 140405470848576] [remote 122.178.48.245:1695]     rv = self.handle_user_exception(e)
+[Fri Apr 26 09:02:02.335929 2024] [wsgi:error] [pid 45234:tid 140405470848576] [remote 122.178.48.245:1695]   File "/var/www/face/venv/lib/python3.10/site-packages/flask/app.py", line 880, in full_dispatch_request
+[Fri Apr 26 09:02:02.335984 2024] [wsgi:error] [pid 45234:tid 140405470848576] [remote 122.178.48.245:1695]     rv = self.dispatch_request()
+[Fri Apr 26 09:02:02.336036 2024] [wsgi:error] [pid 45234:tid 140405470848576] [remote 122.178.48.245:1695]   File "/var/www/face/venv/lib/python3.10/site-packages/flask/app.py", line 865, in dispatch_request
+[Fri Apr 26 09:02:02.336110 2024] [wsgi:error] [pid 45234:tid 140405470848576] [remote 122.178.48.245:1695]     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+[Fri Apr 26 09:02:02.336167 2024] [wsgi:error] [pid 45234:tid 140405470848576] [remote 122.178.48.245:1695]   File "/var/www/face/face/app.py", line 214, in take_attendance
+[Fri Apr 26 09:02:02.336223 2024] [wsgi:error] [pid 45234:tid 140405470848576] [remote 122.178.48.245:1695]     image.save(save_path)
+[Fri Apr 26 09:02:02.336278 2024] [wsgi:error] [pid 45234:tid 140405470848576] [remote 122.178.48.245:1695]   File "/var/www/face/venv/lib/python3.10/site-packages/werkzeug/datastructures/file_storage.py", line 125, in save
+[Fri Apr 26 09:02:02.336335 2024] [wsgi:error] [pid 45234:tid 140405470848576] [remote 122.178.48.245:1695]     dst = open(dst, "wb")
+[Fri Apr 26 09:02:02.336393 2024] [wsgi:error] [pid 45234:tid 140405470848576] [remote 122.178.48.245:1695] FileNotFoundError: [Errno 2] No such file or directory: 'data/check/3d507cf4-4075-486f-9c6d-d0abd6dd421a.jpeg'
+[Fri Apr 26 09:16:18.311873 2024] [wsgi:error] [pid 45907:tid 139863292749376] [remote 122.178.48.245:49408] values  0.12327119728610143
+[Fri Apr 26 09:16:18.312690 2024] [wsgi:error] [pid 45907:tid 139863292749376] [remote 122.178.48.245:49408] <class 'str'>
+[Fri Apr 26 09:16:18.312934 2024] [wsgi:error] [pid 45907:tid 139863292749376] [remote 122.178.48.245:49408] NITHINFINAL001
+[Fri Apr 26 09:16:18.313309 2024] [wsgi:error] [pid 45907:tid 139863292749376] [remote 122.178.48.245:49408] Name of the person :  NITHINFINAL001
+[Fri Apr 26 09:16:18.313453 2024] [wsgi:error] [pid 45907:tid 139863292749376] [remote 122.178.48.245:49408] NITHINFINAL001 done
+[Fri Apr 26 09:16:32.421303 2024] [wsgi:error] [pid 45907:tid 139863259178560] [remote 122.178.48.245:49410] values  0.09857707510860936
+[Fri Apr 26 09:16:32.422024 2024] [wsgi:error] [pid 45907:tid 139863259178560] [remote 122.178.48.245:49410] <class 'str'>
+[Fri Apr 26 09:16:32.422165 2024] [wsgi:error] [pid 45907:tid 139863259178560] [remote 122.178.48.245:49410] NITHINFINAL001
+[Fri Apr 26 09:16:32.422440 2024] [wsgi:error] [pid 45907:tid 139863259178560] [remote 122.178.48.245:49410] Name of the person :  NITHINFINAL001
+[Fri Apr 26 09:16:32.422531 2024] [wsgi:error] [pid 45907:tid 139863259178560] [remote 122.178.48.245:49410] NITHINFINAL001 done
+[Fri Apr 26 09:18:00.218264 2024] [wsgi:error] [pid 45907:tid 139863292749376] [remote 122.178.48.245:49426] values  0.762424724647244
+[Fri Apr 26 09:18:00.219102 2024] [wsgi:error] [pid 45907:tid 139863292749376] [remote 122.178.48.245:49426] False done

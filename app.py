@@ -208,7 +208,7 @@ def take_attendance():
 
     # Generate unique filename with UUID
     unique_filename = str(uuid.uuid4()) + os.path.splitext(image.filename)[1]
-    save_path = os.path.join('data', 'check', unique_filename)
+    save_path = os.path.join('/var/www/face/face/data', 'check', unique_filename)
 
     # Save the image
     image.save(save_path)
@@ -220,7 +220,7 @@ def take_attendance():
     if result == False or not result:
         return {
             'success': False,
-            'message': 'user not found',
+            'message': 'User image mismatch',
         }, 400
     else:
         return {
