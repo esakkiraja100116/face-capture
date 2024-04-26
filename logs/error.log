@@ -63,3 +63,1056 @@
 [Thu Apr 25 18:24:30.250584 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 45.115.225.71:41356]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
 [Thu Apr 25 18:24:30.250620 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 45.115.225.71:41356]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
 [Thu Apr 25 18:24:30.250680 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 45.115.225.71:41356] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Thu Apr 25 18:28:28.134003 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:45584] mod_wsgi (pid=35478): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 18:28:28.134212 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:45584] mod_wsgi (pid=35478): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 18:28:28.134390 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:45584] Traceback (most recent call last):
+[Thu Apr 25 18:28:28.134456 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:45584]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Thu Apr 25 18:28:28.134495 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:45584]     from app import app as application
+[Thu Apr 25 18:28:28.134533 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:45584]   File "/var/www/face/face/app.py", line 10, in <module>
+[Thu Apr 25 18:28:28.134579 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:45584]     from extraction_face_to_csv import extraction
+[Thu Apr 25 18:28:28.134616 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:45584]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Thu Apr 25 18:28:28.134652 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:45584]     class extraction():
+[Thu Apr 25 18:28:28.134689 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:45584]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Thu Apr 25 18:28:28.134724 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:45584]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Thu Apr 25 18:28:28.134769 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:45584] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Thu Apr 25 18:28:28.866476 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:46580] mod_wsgi (pid=35478): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 18:28:28.866829 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:46580] mod_wsgi (pid=35478): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 18:28:28.867004 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:46580] Traceback (most recent call last):
+[Thu Apr 25 18:28:28.867074 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:46580]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Thu Apr 25 18:28:28.867113 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:46580]     from app import app as application
+[Thu Apr 25 18:28:28.867151 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:46580]   File "/var/www/face/face/app.py", line 10, in <module>
+[Thu Apr 25 18:28:28.867187 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:46580]     from extraction_face_to_csv import extraction
+[Thu Apr 25 18:28:28.867224 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:46580]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Thu Apr 25 18:28:28.867260 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:46580]     class extraction():
+[Thu Apr 25 18:28:28.867297 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:46580]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Thu Apr 25 18:28:28.867333 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:46580]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Thu Apr 25 18:28:28.867378 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:46580] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Thu Apr 25 18:49:19.338238 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 192.241.196.34:41168] mod_wsgi (pid=35478): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 18:49:19.338595 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 192.241.196.34:41168] mod_wsgi (pid=35478): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 18:49:19.338799 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 192.241.196.34:41168] Traceback (most recent call last):
+[Thu Apr 25 18:49:19.338872 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 192.241.196.34:41168]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Thu Apr 25 18:49:19.338911 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 192.241.196.34:41168]     from app import app as application
+[Thu Apr 25 18:49:19.338949 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 192.241.196.34:41168]   File "/var/www/face/face/app.py", line 10, in <module>
+[Thu Apr 25 18:49:19.338999 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 192.241.196.34:41168]     from extraction_face_to_csv import extraction
+[Thu Apr 25 18:49:19.339036 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 192.241.196.34:41168]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Thu Apr 25 18:49:19.339072 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 192.241.196.34:41168]     class extraction():
+[Thu Apr 25 18:49:19.339109 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 192.241.196.34:41168]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Thu Apr 25 18:49:19.339145 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 192.241.196.34:41168]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Thu Apr 25 18:49:19.339190 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 192.241.196.34:41168] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Thu Apr 25 18:50:13.216182 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 59.178.21.192:59419] mod_wsgi (pid=35478): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 18:50:13.216548 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 59.178.21.192:59419] mod_wsgi (pid=35478): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 18:50:13.216732 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 59.178.21.192:59419] Traceback (most recent call last):
+[Thu Apr 25 18:50:13.216831 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 59.178.21.192:59419]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Thu Apr 25 18:50:13.216880 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 59.178.21.192:59419]     from app import app as application
+[Thu Apr 25 18:50:13.216924 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 59.178.21.192:59419]   File "/var/www/face/face/app.py", line 10, in <module>
+[Thu Apr 25 18:50:13.216961 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 59.178.21.192:59419]     from extraction_face_to_csv import extraction
+[Thu Apr 25 18:50:13.216999 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 59.178.21.192:59419]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Thu Apr 25 18:50:13.217036 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 59.178.21.192:59419]     class extraction():
+[Thu Apr 25 18:50:13.217073 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 59.178.21.192:59419]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Thu Apr 25 18:50:13.217109 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 59.178.21.192:59419]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Thu Apr 25 18:50:13.217155 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 59.178.21.192:59419] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Thu Apr 25 18:51:20.847906 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 167.94.138.56:53146] mod_wsgi (pid=35478): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 18:51:20.848287 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 167.94.138.56:53146] mod_wsgi (pid=35478): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 18:51:20.848473 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 167.94.138.56:53146] Traceback (most recent call last):
+[Thu Apr 25 18:51:20.848543 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 167.94.138.56:53146]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Thu Apr 25 18:51:20.848583 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 167.94.138.56:53146]     from app import app as application
+[Thu Apr 25 18:51:20.848641 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 167.94.138.56:53146]   File "/var/www/face/face/app.py", line 10, in <module>
+[Thu Apr 25 18:51:20.848677 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 167.94.138.56:53146]     from extraction_face_to_csv import extraction
+[Thu Apr 25 18:51:20.848715 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 167.94.138.56:53146]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Thu Apr 25 18:51:20.848750 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 167.94.138.56:53146]     class extraction():
+[Thu Apr 25 18:51:20.848812 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 167.94.138.56:53146]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Thu Apr 25 18:51:20.848858 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 167.94.138.56:53146]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Thu Apr 25 18:51:20.848932 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 167.94.138.56:53146] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Thu Apr 25 18:51:28.217008 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 167.94.138.56:43400] mod_wsgi (pid=35478): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 18:51:28.217370 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 167.94.138.56:43400] mod_wsgi (pid=35478): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 18:51:28.217570 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 167.94.138.56:43400] Traceback (most recent call last):
+[Thu Apr 25 18:51:28.217650 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 167.94.138.56:43400]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Thu Apr 25 18:51:28.217690 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 167.94.138.56:43400]     from app import app as application
+[Thu Apr 25 18:51:28.217735 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 167.94.138.56:43400]   File "/var/www/face/face/app.py", line 10, in <module>
+[Thu Apr 25 18:51:28.217774 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 167.94.138.56:43400]     from extraction_face_to_csv import extraction
+[Thu Apr 25 18:51:28.217812 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 167.94.138.56:43400]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Thu Apr 25 18:51:28.217854 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 167.94.138.56:43400]     class extraction():
+[Thu Apr 25 18:51:28.217900 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 167.94.138.56:43400]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Thu Apr 25 18:51:28.217937 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 167.94.138.56:43400]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Thu Apr 25 18:51:28.217985 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 167.94.138.56:43400] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Thu Apr 25 19:10:53.269015 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:56132] mod_wsgi (pid=35478): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 19:10:53.269355 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:56132] mod_wsgi (pid=35478): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 19:10:53.269535 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:56132] Traceback (most recent call last):
+[Thu Apr 25 19:10:53.269605 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:56132]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Thu Apr 25 19:10:53.269644 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:56132]     from app import app as application
+[Thu Apr 25 19:10:53.269697 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:56132]   File "/var/www/face/face/app.py", line 10, in <module>
+[Thu Apr 25 19:10:53.269733 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:56132]     from extraction_face_to_csv import extraction
+[Thu Apr 25 19:10:53.269770 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:56132]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Thu Apr 25 19:10:53.269806 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:56132]     class extraction():
+[Thu Apr 25 19:10:53.269843 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:56132]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Thu Apr 25 19:10:53.269879 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:56132]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Thu Apr 25 19:10:53.269925 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:56132] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Thu Apr 25 19:58:19.029987 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:57032] mod_wsgi (pid=35478): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 19:58:19.030326 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:57032] mod_wsgi (pid=35478): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 19:58:19.030504 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:57032] Traceback (most recent call last):
+[Thu Apr 25 19:58:19.030575 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:57032]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Thu Apr 25 19:58:19.030614 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:57032]     from app import app as application
+[Thu Apr 25 19:58:19.030652 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:57032]   File "/var/www/face/face/app.py", line 10, in <module>
+[Thu Apr 25 19:58:19.030688 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:57032]     from extraction_face_to_csv import extraction
+[Thu Apr 25 19:58:19.030727 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:57032]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Thu Apr 25 19:58:19.030763 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:57032]     class extraction():
+[Thu Apr 25 19:58:19.030800 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:57032]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Thu Apr 25 19:58:19.030836 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:57032]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Thu Apr 25 19:58:19.030881 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:57032] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Thu Apr 25 19:58:19.724189 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:58104] mod_wsgi (pid=35478): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 19:58:19.724548 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:58104] mod_wsgi (pid=35478): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 19:58:19.724721 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:58104] Traceback (most recent call last):
+[Thu Apr 25 19:58:19.724790 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:58104]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Thu Apr 25 19:58:19.724880 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:58104]     from app import app as application
+[Thu Apr 25 19:58:19.724921 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:58104]   File "/var/www/face/face/app.py", line 10, in <module>
+[Thu Apr 25 19:58:19.724957 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:58104]     from extraction_face_to_csv import extraction
+[Thu Apr 25 19:58:19.724995 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:58104]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Thu Apr 25 19:58:19.725031 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:58104]     class extraction():
+[Thu Apr 25 19:58:19.725069 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:58104]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Thu Apr 25 19:58:19.725105 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:58104]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Thu Apr 25 19:58:19.725151 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:58104] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Thu Apr 25 19:59:49.821191 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 143.110.222.166:53652] mod_wsgi (pid=35478): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 19:59:49.821536 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 143.110.222.166:53652] mod_wsgi (pid=35478): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 19:59:49.821716 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 143.110.222.166:53652] Traceback (most recent call last):
+[Thu Apr 25 19:59:49.821785 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 143.110.222.166:53652]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Thu Apr 25 19:59:49.821824 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 143.110.222.166:53652]     from app import app as application
+[Thu Apr 25 19:59:49.821863 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 143.110.222.166:53652]   File "/var/www/face/face/app.py", line 10, in <module>
+[Thu Apr 25 19:59:49.821900 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 143.110.222.166:53652]     from extraction_face_to_csv import extraction
+[Thu Apr 25 19:59:49.821937 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 143.110.222.166:53652]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Thu Apr 25 19:59:49.821973 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 143.110.222.166:53652]     class extraction():
+[Thu Apr 25 19:59:49.822010 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 143.110.222.166:53652]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Thu Apr 25 19:59:49.822046 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 143.110.222.166:53652]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Thu Apr 25 19:59:49.822090 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 143.110.222.166:53652] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Thu Apr 25 20:13:27.633664 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 45.142.182.92:40046] mod_wsgi (pid=35478): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 20:13:27.634033 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 45.142.182.92:40046] mod_wsgi (pid=35478): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 20:13:27.634214 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 45.142.182.92:40046] Traceback (most recent call last):
+[Thu Apr 25 20:13:27.634285 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 45.142.182.92:40046]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Thu Apr 25 20:13:27.634339 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 45.142.182.92:40046]     from app import app as application
+[Thu Apr 25 20:13:27.634377 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 45.142.182.92:40046]   File "/var/www/face/face/app.py", line 10, in <module>
+[Thu Apr 25 20:13:27.634413 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 45.142.182.92:40046]     from extraction_face_to_csv import extraction
+[Thu Apr 25 20:13:27.634450 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 45.142.182.92:40046]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Thu Apr 25 20:13:27.634486 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 45.142.182.92:40046]     class extraction():
+[Thu Apr 25 20:13:27.634523 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 45.142.182.92:40046]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Thu Apr 25 20:13:27.634559 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 45.142.182.92:40046]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Thu Apr 25 20:13:27.634605 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 45.142.182.92:40046] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Thu Apr 25 20:21:58.121571 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 162.142.125.13:54554] mod_wsgi (pid=35478): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 20:21:58.121939 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 162.142.125.13:54554] mod_wsgi (pid=35478): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 20:21:58.122140 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 162.142.125.13:54554] Traceback (most recent call last):
+[Thu Apr 25 20:21:58.122211 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 162.142.125.13:54554]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Thu Apr 25 20:21:58.122251 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 162.142.125.13:54554]     from app import app as application
+[Thu Apr 25 20:21:58.122288 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 162.142.125.13:54554]   File "/var/www/face/face/app.py", line 10, in <module>
+[Thu Apr 25 20:21:58.122324 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 162.142.125.13:54554]     from extraction_face_to_csv import extraction
+[Thu Apr 25 20:21:58.122361 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 162.142.125.13:54554]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Thu Apr 25 20:21:58.122397 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 162.142.125.13:54554]     class extraction():
+[Thu Apr 25 20:21:58.122434 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 162.142.125.13:54554]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Thu Apr 25 20:21:58.122470 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 162.142.125.13:54554]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Thu Apr 25 20:21:58.122516 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 162.142.125.13:54554] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Thu Apr 25 20:29:25.498767 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 199.45.154.28:59788] mod_wsgi (pid=35478): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 20:29:25.499216 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 199.45.154.28:59788] mod_wsgi (pid=35478): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 20:29:25.499427 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 199.45.154.28:59788] Traceback (most recent call last):
+[Thu Apr 25 20:29:25.499500 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 199.45.154.28:59788]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Thu Apr 25 20:29:25.499554 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 199.45.154.28:59788]     from app import app as application
+[Thu Apr 25 20:29:25.499592 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 199.45.154.28:59788]   File "/var/www/face/face/app.py", line 10, in <module>
+[Thu Apr 25 20:29:25.499628 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 199.45.154.28:59788]     from extraction_face_to_csv import extraction
+[Thu Apr 25 20:29:25.499666 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 199.45.154.28:59788]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Thu Apr 25 20:29:25.499702 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 199.45.154.28:59788]     class extraction():
+[Thu Apr 25 20:29:25.499739 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 199.45.154.28:59788]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Thu Apr 25 20:29:25.499775 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 199.45.154.28:59788]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Thu Apr 25 20:29:25.499820 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 199.45.154.28:59788] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Thu Apr 25 20:29:28.997023 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 199.45.154.28:59840] mod_wsgi (pid=35478): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 20:29:28.997357 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 199.45.154.28:59840] mod_wsgi (pid=35478): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 20:29:28.997536 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 199.45.154.28:59840] Traceback (most recent call last):
+[Thu Apr 25 20:29:28.997605 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 199.45.154.28:59840]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Thu Apr 25 20:29:28.997644 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 199.45.154.28:59840]     from app import app as application
+[Thu Apr 25 20:29:28.997682 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 199.45.154.28:59840]   File "/var/www/face/face/app.py", line 10, in <module>
+[Thu Apr 25 20:29:28.997718 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 199.45.154.28:59840]     from extraction_face_to_csv import extraction
+[Thu Apr 25 20:29:28.997755 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 199.45.154.28:59840]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Thu Apr 25 20:29:28.997791 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 199.45.154.28:59840]     class extraction():
+[Thu Apr 25 20:29:28.997828 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 199.45.154.28:59840]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Thu Apr 25 20:29:28.997863 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 199.45.154.28:59840]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Thu Apr 25 20:29:28.997908 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 199.45.154.28:59840] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Thu Apr 25 20:48:45.012726 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 212.47.247.6:34128] mod_wsgi (pid=35478): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 20:48:45.013098 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 212.47.247.6:34128] mod_wsgi (pid=35478): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 20:48:45.013275 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 212.47.247.6:34128] Traceback (most recent call last):
+[Thu Apr 25 20:48:45.013360 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 212.47.247.6:34128]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Thu Apr 25 20:48:45.013399 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 212.47.247.6:34128]     from app import app as application
+[Thu Apr 25 20:48:45.013437 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 212.47.247.6:34128]   File "/var/www/face/face/app.py", line 10, in <module>
+[Thu Apr 25 20:48:45.013473 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 212.47.247.6:34128]     from extraction_face_to_csv import extraction
+[Thu Apr 25 20:48:45.013510 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 212.47.247.6:34128]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Thu Apr 25 20:48:45.013545 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 212.47.247.6:34128]     class extraction():
+[Thu Apr 25 20:48:45.013582 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 212.47.247.6:34128]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Thu Apr 25 20:48:45.013618 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 212.47.247.6:34128]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Thu Apr 25 20:48:45.013663 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 212.47.247.6:34128] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Thu Apr 25 20:53:38.069869 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:44912] mod_wsgi (pid=35478): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 20:53:38.070237 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:44912] mod_wsgi (pid=35478): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 20:53:38.070423 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:44912] Traceback (most recent call last):
+[Thu Apr 25 20:53:38.070495 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:44912]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Thu Apr 25 20:53:38.070535 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:44912]     from app import app as application
+[Thu Apr 25 20:53:38.070573 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:44912]   File "/var/www/face/face/app.py", line 10, in <module>
+[Thu Apr 25 20:53:38.070609 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:44912]     from extraction_face_to_csv import extraction
+[Thu Apr 25 20:53:38.070646 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:44912]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Thu Apr 25 20:53:38.070682 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:44912]     class extraction():
+[Thu Apr 25 20:53:38.070719 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:44912]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Thu Apr 25 20:53:38.070754 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:44912]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Thu Apr 25 20:53:38.070799 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:44912] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Thu Apr 25 20:53:38.731196 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:45604] mod_wsgi (pid=35478): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 20:53:38.731550 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:45604] mod_wsgi (pid=35478): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 20:53:38.731735 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:45604] Traceback (most recent call last):
+[Thu Apr 25 20:53:38.731821 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:45604]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Thu Apr 25 20:53:38.731860 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:45604]     from app import app as application
+[Thu Apr 25 20:53:38.731898 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:45604]   File "/var/www/face/face/app.py", line 10, in <module>
+[Thu Apr 25 20:53:38.731934 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:45604]     from extraction_face_to_csv import extraction
+[Thu Apr 25 20:53:38.731972 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:45604]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Thu Apr 25 20:53:38.732008 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:45604]     class extraction():
+[Thu Apr 25 20:53:38.732045 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:45604]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Thu Apr 25 20:53:38.732081 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:45604]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Thu Apr 25 20:53:38.732125 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:45604] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Thu Apr 25 20:59:13.313415 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 143.110.222.166:37790] mod_wsgi (pid=35478): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 20:59:13.313761 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 143.110.222.166:37790] mod_wsgi (pid=35478): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 20:59:13.313937 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 143.110.222.166:37790] Traceback (most recent call last):
+[Thu Apr 25 20:59:13.314005 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 143.110.222.166:37790]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Thu Apr 25 20:59:13.314043 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 143.110.222.166:37790]     from app import app as application
+[Thu Apr 25 20:59:13.314081 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 143.110.222.166:37790]   File "/var/www/face/face/app.py", line 10, in <module>
+[Thu Apr 25 20:59:13.314120 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 143.110.222.166:37790]     from extraction_face_to_csv import extraction
+[Thu Apr 25 20:59:13.314179 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 143.110.222.166:37790]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Thu Apr 25 20:59:13.314222 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 143.110.222.166:37790]     class extraction():
+[Thu Apr 25 20:59:13.314261 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 143.110.222.166:37790]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Thu Apr 25 20:59:13.314297 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 143.110.222.166:37790]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Thu Apr 25 20:59:13.314364 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 143.110.222.166:37790] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Thu Apr 25 21:35:53.596484 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:40260] mod_wsgi (pid=35478): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 21:35:53.596871 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:40260] mod_wsgi (pid=35478): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 21:35:53.597059 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:40260] Traceback (most recent call last):
+[Thu Apr 25 21:35:53.597144 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:40260]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Thu Apr 25 21:35:53.597183 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:40260]     from app import app as application
+[Thu Apr 25 21:35:53.597221 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:40260]   File "/var/www/face/face/app.py", line 10, in <module>
+[Thu Apr 25 21:35:53.597256 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:40260]     from extraction_face_to_csv import extraction
+[Thu Apr 25 21:35:53.597294 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:40260]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Thu Apr 25 21:35:53.597330 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:40260]     class extraction():
+[Thu Apr 25 21:35:53.597367 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:40260]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Thu Apr 25 21:35:53.597402 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:40260]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Thu Apr 25 21:35:53.597448 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:40260] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Thu Apr 25 21:35:54.348727 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:40722] mod_wsgi (pid=35478): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 21:35:54.349111 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:40722] mod_wsgi (pid=35478): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 21:35:54.349286 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:40722] Traceback (most recent call last):
+[Thu Apr 25 21:35:54.349357 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:40722]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Thu Apr 25 21:35:54.349397 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:40722]     from app import app as application
+[Thu Apr 25 21:35:54.349434 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:40722]   File "/var/www/face/face/app.py", line 10, in <module>
+[Thu Apr 25 21:35:54.349470 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:40722]     from extraction_face_to_csv import extraction
+[Thu Apr 25 21:35:54.349507 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:40722]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Thu Apr 25 21:35:54.349544 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:40722]     class extraction():
+[Thu Apr 25 21:35:54.349582 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:40722]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Thu Apr 25 21:35:54.349617 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:40722]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Thu Apr 25 21:35:54.349662 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:40722] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Thu Apr 25 21:45:25.644661 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 185.191.126.213:50860] mod_wsgi (pid=35478): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 21:45:25.644744 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 185.191.126.213:50860] mod_wsgi (pid=35478): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 21:45:25.645061 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 185.191.126.213:50860] Traceback (most recent call last):
+[Thu Apr 25 21:45:25.645096 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 185.191.126.213:50860]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Thu Apr 25 21:45:25.645099 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 185.191.126.213:50860]     from app import app as application
+[Thu Apr 25 21:45:25.645103 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 185.191.126.213:50860]   File "/var/www/face/face/app.py", line 10, in <module>
+[Thu Apr 25 21:45:25.645105 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 185.191.126.213:50860]     from extraction_face_to_csv import extraction
+[Thu Apr 25 21:45:25.645109 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 185.191.126.213:50860]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Thu Apr 25 21:45:25.645112 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 185.191.126.213:50860]     class extraction():
+[Thu Apr 25 21:45:25.645115 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 185.191.126.213:50860]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Thu Apr 25 21:45:25.645118 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 185.191.126.213:50860]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Thu Apr 25 21:45:25.645129 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 185.191.126.213:50860] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Thu Apr 25 21:45:29.782596 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 185.224.128.43:46546] mod_wsgi (pid=35478): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 21:45:29.782666 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 185.224.128.43:46546] mod_wsgi (pid=35478): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 21:45:29.782780 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 185.224.128.43:46546] Traceback (most recent call last):
+[Thu Apr 25 21:45:29.782805 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 185.224.128.43:46546]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Thu Apr 25 21:45:29.782808 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 185.224.128.43:46546]     from app import app as application
+[Thu Apr 25 21:45:29.782812 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 185.224.128.43:46546]   File "/var/www/face/face/app.py", line 10, in <module>
+[Thu Apr 25 21:45:29.782814 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 185.224.128.43:46546]     from extraction_face_to_csv import extraction
+[Thu Apr 25 21:45:29.782818 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 185.224.128.43:46546]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Thu Apr 25 21:45:29.782821 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 185.224.128.43:46546]     class extraction():
+[Thu Apr 25 21:45:29.782824 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 185.224.128.43:46546]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Thu Apr 25 21:45:29.782827 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 185.224.128.43:46546]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Thu Apr 25 21:45:29.782838 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 185.224.128.43:46546] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Thu Apr 25 22:02:59.195758 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:49314] mod_wsgi (pid=35478): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 22:02:59.195836 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:49314] mod_wsgi (pid=35478): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 22:02:59.195965 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:49314] Traceback (most recent call last):
+[Thu Apr 25 22:02:59.196008 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:49314]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Thu Apr 25 22:02:59.196011 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:49314]     from app import app as application
+[Thu Apr 25 22:02:59.196015 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:49314]   File "/var/www/face/face/app.py", line 10, in <module>
+[Thu Apr 25 22:02:59.196017 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:49314]     from extraction_face_to_csv import extraction
+[Thu Apr 25 22:02:59.196021 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:49314]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Thu Apr 25 22:02:59.196023 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:49314]     class extraction():
+[Thu Apr 25 22:02:59.196027 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:49314]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Thu Apr 25 22:02:59.196030 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:49314]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Thu Apr 25 22:02:59.196042 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:49314] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Thu Apr 25 22:06:57.608601 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 45.128.232.229:51096] mod_wsgi (pid=35478): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 22:06:57.608678 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 45.128.232.229:51096] mod_wsgi (pid=35478): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 22:06:57.608822 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 45.128.232.229:51096] Traceback (most recent call last):
+[Thu Apr 25 22:06:57.608851 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 45.128.232.229:51096]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Thu Apr 25 22:06:57.608854 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 45.128.232.229:51096]     from app import app as application
+[Thu Apr 25 22:06:57.608858 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 45.128.232.229:51096]   File "/var/www/face/face/app.py", line 10, in <module>
+[Thu Apr 25 22:06:57.608860 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 45.128.232.229:51096]     from extraction_face_to_csv import extraction
+[Thu Apr 25 22:06:57.608864 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 45.128.232.229:51096]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Thu Apr 25 22:06:57.608866 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 45.128.232.229:51096]     class extraction():
+[Thu Apr 25 22:06:57.608870 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 45.128.232.229:51096]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Thu Apr 25 22:06:57.608873 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 45.128.232.229:51096]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Thu Apr 25 22:06:57.608884 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 45.128.232.229:51096] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Thu Apr 25 22:40:59.409379 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 83.97.73.245:57092] mod_wsgi (pid=35478): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 22:40:59.409467 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 83.97.73.245:57092] mod_wsgi (pid=35478): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 22:40:59.409619 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 83.97.73.245:57092] Traceback (most recent call last):
+[Thu Apr 25 22:40:59.409650 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 83.97.73.245:57092]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Thu Apr 25 22:40:59.409654 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 83.97.73.245:57092]     from app import app as application
+[Thu Apr 25 22:40:59.409657 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 83.97.73.245:57092]   File "/var/www/face/face/app.py", line 10, in <module>
+[Thu Apr 25 22:40:59.409660 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 83.97.73.245:57092]     from extraction_face_to_csv import extraction
+[Thu Apr 25 22:40:59.409663 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 83.97.73.245:57092]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Thu Apr 25 22:40:59.409666 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 83.97.73.245:57092]     class extraction():
+[Thu Apr 25 22:40:59.409669 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 83.97.73.245:57092]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Thu Apr 25 22:40:59.409672 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 83.97.73.245:57092]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Thu Apr 25 22:40:59.409683 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 83.97.73.245:57092] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Thu Apr 25 22:52:38.437410 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 146.19.24.28:39068] mod_wsgi (pid=35478): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 22:52:38.437494 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 146.19.24.28:39068] mod_wsgi (pid=35478): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 22:52:38.437611 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 146.19.24.28:39068] Traceback (most recent call last):
+[Thu Apr 25 22:52:38.437646 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 146.19.24.28:39068]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Thu Apr 25 22:52:38.437651 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 146.19.24.28:39068]     from app import app as application
+[Thu Apr 25 22:52:38.437656 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 146.19.24.28:39068]   File "/var/www/face/face/app.py", line 10, in <module>
+[Thu Apr 25 22:52:38.437659 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 146.19.24.28:39068]     from extraction_face_to_csv import extraction
+[Thu Apr 25 22:52:38.437665 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 146.19.24.28:39068]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Thu Apr 25 22:52:38.437668 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 146.19.24.28:39068]     class extraction():
+[Thu Apr 25 22:52:38.437674 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 146.19.24.28:39068]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Thu Apr 25 22:52:38.437677 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 146.19.24.28:39068]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Thu Apr 25 22:52:38.437692 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 146.19.24.28:39068] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Thu Apr 25 23:06:34.737318 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:53848] mod_wsgi (pid=35478): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 23:06:34.737401 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:53848] mod_wsgi (pid=35478): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 23:06:34.737532 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:53848] Traceback (most recent call last):
+[Thu Apr 25 23:06:34.737558 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:53848]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Thu Apr 25 23:06:34.737561 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:53848]     from app import app as application
+[Thu Apr 25 23:06:34.737565 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:53848]   File "/var/www/face/face/app.py", line 10, in <module>
+[Thu Apr 25 23:06:34.737568 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:53848]     from extraction_face_to_csv import extraction
+[Thu Apr 25 23:06:34.737572 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:53848]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Thu Apr 25 23:06:34.737574 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:53848]     class extraction():
+[Thu Apr 25 23:06:34.737578 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:53848]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Thu Apr 25 23:06:34.737580 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:53848]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Thu Apr 25 23:06:34.737591 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 57.129.23.166:53848] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Thu Apr 25 23:06:35.480318 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:54776] mod_wsgi (pid=35478): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 23:06:35.480393 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:54776] mod_wsgi (pid=35478): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 23:06:35.480510 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:54776] Traceback (most recent call last):
+[Thu Apr 25 23:06:35.480536 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:54776]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Thu Apr 25 23:06:35.480539 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:54776]     from app import app as application
+[Thu Apr 25 23:06:35.480543 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:54776]   File "/var/www/face/face/app.py", line 10, in <module>
+[Thu Apr 25 23:06:35.480546 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:54776]     from extraction_face_to_csv import extraction
+[Thu Apr 25 23:06:35.480549 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:54776]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Thu Apr 25 23:06:35.480552 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:54776]     class extraction():
+[Thu Apr 25 23:06:35.480556 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:54776]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Thu Apr 25 23:06:35.480558 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:54776]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Thu Apr 25 23:06:35.480570 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 57.129.23.166:54776] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Thu Apr 25 23:06:42.248946 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:45544] mod_wsgi (pid=35478): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 23:06:42.249034 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:45544] mod_wsgi (pid=35478): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 23:06:42.249161 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:45544] Traceback (most recent call last):
+[Thu Apr 25 23:06:42.249198 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:45544]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Thu Apr 25 23:06:42.249201 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:45544]     from app import app as application
+[Thu Apr 25 23:06:42.249205 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:45544]   File "/var/www/face/face/app.py", line 10, in <module>
+[Thu Apr 25 23:06:42.249207 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:45544]     from extraction_face_to_csv import extraction
+[Thu Apr 25 23:06:42.249211 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:45544]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Thu Apr 25 23:06:42.249213 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:45544]     class extraction():
+[Thu Apr 25 23:06:42.249217 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:45544]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Thu Apr 25 23:06:42.249220 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:45544]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Thu Apr 25 23:06:42.249230 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:45544] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Thu Apr 25 23:35:48.580419 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 179.43.190.218:57230] mod_wsgi (pid=35478): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 23:35:48.580502 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 179.43.190.218:57230] mod_wsgi (pid=35478): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 23:35:48.580634 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 179.43.190.218:57230] Traceback (most recent call last):
+[Thu Apr 25 23:35:48.580659 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 179.43.190.218:57230]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Thu Apr 25 23:35:48.580662 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 179.43.190.218:57230]     from app import app as application
+[Thu Apr 25 23:35:48.580666 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 179.43.190.218:57230]   File "/var/www/face/face/app.py", line 10, in <module>
+[Thu Apr 25 23:35:48.580669 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 179.43.190.218:57230]     from extraction_face_to_csv import extraction
+[Thu Apr 25 23:35:48.580672 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 179.43.190.218:57230]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Thu Apr 25 23:35:48.580675 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 179.43.190.218:57230]     class extraction():
+[Thu Apr 25 23:35:48.580679 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 179.43.190.218:57230]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Thu Apr 25 23:35:48.580681 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 179.43.190.218:57230]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Thu Apr 25 23:35:48.580693 2024] [wsgi:error] [pid 35478:tid 139622318671424] [remote 179.43.190.218:57230] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Thu Apr 25 23:57:36.883110 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:52244] mod_wsgi (pid=35478): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 23:57:36.883220 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:52244] mod_wsgi (pid=35478): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Thu Apr 25 23:57:36.883352 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:52244] Traceback (most recent call last):
+[Thu Apr 25 23:57:36.883382 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:52244]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Thu Apr 25 23:57:36.883385 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:52244]     from app import app as application
+[Thu Apr 25 23:57:36.883389 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:52244]   File "/var/www/face/face/app.py", line 10, in <module>
+[Thu Apr 25 23:57:36.883391 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:52244]     from extraction_face_to_csv import extraction
+[Thu Apr 25 23:57:36.883395 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:52244]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Thu Apr 25 23:57:36.883397 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:52244]     class extraction():
+[Thu Apr 25 23:57:36.883401 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:52244]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Thu Apr 25 23:57:36.883403 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:52244]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Thu Apr 25 23:57:36.883414 2024] [wsgi:error] [pid 35478:tid 139622285100608] [remote 143.110.222.166:52244] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 00:02:08.238172 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 57.129.23.166:36802] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 00:02:08.238270 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 57.129.23.166:36802] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 00:02:08.238886 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 57.129.23.166:36802] Traceback (most recent call last):
+[Fri Apr 26 00:02:08.238924 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 57.129.23.166:36802]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 00:02:08.238928 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 57.129.23.166:36802]     from app import app as application
+[Fri Apr 26 00:02:08.238932 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 57.129.23.166:36802]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 00:02:08.238934 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 57.129.23.166:36802]     from extraction_face_to_csv import extraction
+[Fri Apr 26 00:02:08.238940 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 57.129.23.166:36802]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 00:02:08.238944 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 57.129.23.166:36802]     class extraction():
+[Fri Apr 26 00:02:08.238949 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 57.129.23.166:36802]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 00:02:08.238953 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 57.129.23.166:36802]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 00:02:08.238969 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 57.129.23.166:36802] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 00:02:08.969506 2024] [wsgi:error] [pid 37880:tid 139622285100608] [remote 57.129.23.166:37740] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 00:02:08.969592 2024] [wsgi:error] [pid 37880:tid 139622285100608] [remote 57.129.23.166:37740] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 00:02:08.969714 2024] [wsgi:error] [pid 37880:tid 139622285100608] [remote 57.129.23.166:37740] Traceback (most recent call last):
+[Fri Apr 26 00:02:08.969740 2024] [wsgi:error] [pid 37880:tid 139622285100608] [remote 57.129.23.166:37740]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 00:02:08.969743 2024] [wsgi:error] [pid 37880:tid 139622285100608] [remote 57.129.23.166:37740]     from app import app as application
+[Fri Apr 26 00:02:08.969746 2024] [wsgi:error] [pid 37880:tid 139622285100608] [remote 57.129.23.166:37740]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 00:02:08.969749 2024] [wsgi:error] [pid 37880:tid 139622285100608] [remote 57.129.23.166:37740]     from extraction_face_to_csv import extraction
+[Fri Apr 26 00:02:08.969752 2024] [wsgi:error] [pid 37880:tid 139622285100608] [remote 57.129.23.166:37740]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 00:02:08.969755 2024] [wsgi:error] [pid 37880:tid 139622285100608] [remote 57.129.23.166:37740]     class extraction():
+[Fri Apr 26 00:02:08.969758 2024] [wsgi:error] [pid 37880:tid 139622285100608] [remote 57.129.23.166:37740]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 00:02:08.969761 2024] [wsgi:error] [pid 37880:tid 139622285100608] [remote 57.129.23.166:37740]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 00:02:08.969772 2024] [wsgi:error] [pid 37880:tid 139622285100608] [remote 57.129.23.166:37740] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 00:10:40.945354 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 83.97.73.245:33364] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 00:10:40.945434 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 83.97.73.245:33364] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 00:10:40.945559 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 83.97.73.245:33364] Traceback (most recent call last):
+[Fri Apr 26 00:10:40.945589 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 83.97.73.245:33364]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 00:10:40.945593 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 83.97.73.245:33364]     from app import app as application
+[Fri Apr 26 00:10:40.945597 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 83.97.73.245:33364]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 00:10:40.945599 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 83.97.73.245:33364]     from extraction_face_to_csv import extraction
+[Fri Apr 26 00:10:40.945603 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 83.97.73.245:33364]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 00:10:40.945606 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 83.97.73.245:33364]     class extraction():
+[Fri Apr 26 00:10:40.945609 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 83.97.73.245:33364]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 00:10:40.945612 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 83.97.73.245:33364]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 00:10:40.945624 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 83.97.73.245:33364] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 00:47:05.018224 2024] [wsgi:error] [pid 37880:tid 139622285100608] [remote 45.142.182.92:49432] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 00:47:05.018306 2024] [wsgi:error] [pid 37880:tid 139622285100608] [remote 45.142.182.92:49432] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 00:47:05.018424 2024] [wsgi:error] [pid 37880:tid 139622285100608] [remote 45.142.182.92:49432] Traceback (most recent call last):
+[Fri Apr 26 00:47:05.018450 2024] [wsgi:error] [pid 37880:tid 139622285100608] [remote 45.142.182.92:49432]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 00:47:05.018453 2024] [wsgi:error] [pid 37880:tid 139622285100608] [remote 45.142.182.92:49432]     from app import app as application
+[Fri Apr 26 00:47:05.018457 2024] [wsgi:error] [pid 37880:tid 139622285100608] [remote 45.142.182.92:49432]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 00:47:05.018460 2024] [wsgi:error] [pid 37880:tid 139622285100608] [remote 45.142.182.92:49432]     from extraction_face_to_csv import extraction
+[Fri Apr 26 00:47:05.018463 2024] [wsgi:error] [pid 37880:tid 139622285100608] [remote 45.142.182.92:49432]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 00:47:05.018466 2024] [wsgi:error] [pid 37880:tid 139622285100608] [remote 45.142.182.92:49432]     class extraction():
+[Fri Apr 26 00:47:05.018469 2024] [wsgi:error] [pid 37880:tid 139622285100608] [remote 45.142.182.92:49432]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 00:47:05.018472 2024] [wsgi:error] [pid 37880:tid 139622285100608] [remote 45.142.182.92:49432]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 00:47:05.018483 2024] [wsgi:error] [pid 37880:tid 139622285100608] [remote 45.142.182.92:49432] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 01:01:39.592177 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.16.38.111:37190] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 01:01:39.592255 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.16.38.111:37190] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 01:01:39.592371 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.16.38.111:37190] Traceback (most recent call last):
+[Fri Apr 26 01:01:39.592399 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.16.38.111:37190]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 01:01:39.592402 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.16.38.111:37190]     from app import app as application
+[Fri Apr 26 01:01:39.592421 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.16.38.111:37190]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 01:01:39.592424 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.16.38.111:37190]     from extraction_face_to_csv import extraction
+[Fri Apr 26 01:01:39.592430 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.16.38.111:37190]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 01:01:39.592434 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.16.38.111:37190]     class extraction():
+[Fri Apr 26 01:01:39.592438 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.16.38.111:37190]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 01:01:39.592441 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.16.38.111:37190]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 01:01:39.592453 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.16.38.111:37190] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 01:04:44.526428 2024] [wsgi:error] [pid 37880:tid 139622285100608] [remote 59.91.185.205:46300] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 01:04:44.526509 2024] [wsgi:error] [pid 37880:tid 139622285100608] [remote 59.91.185.205:46300] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 01:04:44.526628 2024] [wsgi:error] [pid 37880:tid 139622285100608] [remote 59.91.185.205:46300] Traceback (most recent call last):
+[Fri Apr 26 01:04:44.526656 2024] [wsgi:error] [pid 37880:tid 139622285100608] [remote 59.91.185.205:46300]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 01:04:44.526659 2024] [wsgi:error] [pid 37880:tid 139622285100608] [remote 59.91.185.205:46300]     from app import app as application
+[Fri Apr 26 01:04:44.526663 2024] [wsgi:error] [pid 37880:tid 139622285100608] [remote 59.91.185.205:46300]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 01:04:44.526665 2024] [wsgi:error] [pid 37880:tid 139622285100608] [remote 59.91.185.205:46300]     from extraction_face_to_csv import extraction
+[Fri Apr 26 01:04:44.526669 2024] [wsgi:error] [pid 37880:tid 139622285100608] [remote 59.91.185.205:46300]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 01:04:44.526672 2024] [wsgi:error] [pid 37880:tid 139622285100608] [remote 59.91.185.205:46300]     class extraction():
+[Fri Apr 26 01:04:44.526675 2024] [wsgi:error] [pid 37880:tid 139622285100608] [remote 59.91.185.205:46300]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 01:04:44.526678 2024] [wsgi:error] [pid 37880:tid 139622285100608] [remote 59.91.185.205:46300]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 01:04:44.526689 2024] [wsgi:error] [pid 37880:tid 139622285100608] [remote 59.91.185.205:46300] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 01:04:44.855275 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 59.91.185.205:46299] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 01:04:44.855322 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 59.91.185.205:46299] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 01:04:44.855437 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 59.91.185.205:46299] Traceback (most recent call last):
+[Fri Apr 26 01:04:44.855463 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 59.91.185.205:46299]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 01:04:44.855466 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 59.91.185.205:46299]     from app import app as application
+[Fri Apr 26 01:04:44.855470 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 59.91.185.205:46299]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 01:04:44.855472 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 59.91.185.205:46299]     from extraction_face_to_csv import extraction
+[Fri Apr 26 01:04:44.855476 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 59.91.185.205:46299]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 01:04:44.855479 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 59.91.185.205:46299]     class extraction():
+[Fri Apr 26 01:04:44.855482 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 59.91.185.205:46299]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 01:04:44.855485 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 59.91.185.205:46299]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 01:04:44.855496 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 59.91.185.205:46299] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 01:04:47.696467 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 59.91.185.205:46295] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 01:04:47.696550 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 59.91.185.205:46295] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 01:04:47.696674 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 59.91.185.205:46295] Traceback (most recent call last):
+[Fri Apr 26 01:04:47.696703 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 59.91.185.205:46295]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 01:04:47.696706 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 59.91.185.205:46295]     from app import app as application
+[Fri Apr 26 01:04:47.696711 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 59.91.185.205:46295]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 01:04:47.696714 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 59.91.185.205:46295]     from extraction_face_to_csv import extraction
+[Fri Apr 26 01:04:47.696718 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 59.91.185.205:46295]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 01:04:47.696721 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 59.91.185.205:46295]     class extraction():
+[Fri Apr 26 01:04:47.696725 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 59.91.185.205:46295]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 01:04:47.696728 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 59.91.185.205:46295]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 01:04:47.696741 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 59.91.185.205:46295] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 01:04:58.397058 2024] [wsgi:error] [pid 37881:tid 139622055073344] [client 59.91.185.205:46295] mod_wsgi (pid=37881): Request data read error when proxying data to daemon process: The timeout specified has expired.
+[Fri Apr 26 01:05:09.042273 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:42174] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 01:05:09.042347 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:42174] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 01:05:09.042461 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:42174] Traceback (most recent call last):
+[Fri Apr 26 01:05:09.042487 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:42174]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 01:05:09.042490 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:42174]     from app import app as application
+[Fri Apr 26 01:05:09.042494 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:42174]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 01:05:09.042496 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:42174]     from extraction_face_to_csv import extraction
+[Fri Apr 26 01:05:09.042500 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:42174]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 01:05:09.042502 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:42174]     class extraction():
+[Fri Apr 26 01:05:09.042506 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:42174]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 01:05:09.042519 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:42174]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 01:05:09.042531 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:42174] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 01:27:39.214885 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 103.113.69.147:56552] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 01:27:39.214968 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 103.113.69.147:56552] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 01:27:39.215086 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 103.113.69.147:56552] Traceback (most recent call last):
+[Fri Apr 26 01:27:39.215112 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 103.113.69.147:56552]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 01:27:39.215115 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 103.113.69.147:56552]     from app import app as application
+[Fri Apr 26 01:27:39.215119 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 103.113.69.147:56552]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 01:27:39.215122 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 103.113.69.147:56552]     from extraction_face_to_csv import extraction
+[Fri Apr 26 01:27:39.215125 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 103.113.69.147:56552]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 01:27:39.215128 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 103.113.69.147:56552]     class extraction():
+[Fri Apr 26 01:27:39.215132 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 103.113.69.147:56552]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 01:27:39.215134 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 103.113.69.147:56552]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 01:27:39.215146 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 103.113.69.147:56552] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 01:29:01.006439 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 103.113.69.147:35880] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 01:29:01.006520 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 103.113.69.147:35880] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 01:29:01.006669 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 103.113.69.147:35880] Traceback (most recent call last):
+[Fri Apr 26 01:29:01.006708 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 103.113.69.147:35880]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 01:29:01.006714 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 103.113.69.147:35880]     from app import app as application
+[Fri Apr 26 01:29:01.006719 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 103.113.69.147:35880]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 01:29:01.006722 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 103.113.69.147:35880]     from extraction_face_to_csv import extraction
+[Fri Apr 26 01:29:01.006727 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 103.113.69.147:35880]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 01:29:01.006729 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 103.113.69.147:35880]     class extraction():
+[Fri Apr 26 01:29:01.006733 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 103.113.69.147:35880]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 01:29:01.006750 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 103.113.69.147:35880]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 01:29:01.006762 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 103.113.69.147:35880] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 01:46:54.094287 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 179.43.190.218:41264] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 01:46:54.094372 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 179.43.190.218:41264] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 01:46:54.094493 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 179.43.190.218:41264] Traceback (most recent call last):
+[Fri Apr 26 01:46:54.094520 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 179.43.190.218:41264]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 01:46:54.094523 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 179.43.190.218:41264]     from app import app as application
+[Fri Apr 26 01:46:54.094527 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 179.43.190.218:41264]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 01:46:54.094529 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 179.43.190.218:41264]     from extraction_face_to_csv import extraction
+[Fri Apr 26 01:46:54.094533 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 179.43.190.218:41264]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 01:46:54.094535 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 179.43.190.218:41264]     class extraction():
+[Fri Apr 26 01:46:54.094539 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 179.43.190.218:41264]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 01:46:54.094541 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 179.43.190.218:41264]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 01:46:54.094553 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 179.43.190.218:41264] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 01:48:45.169768 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 157.254.164.70:64557] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 01:48:45.169845 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 157.254.164.70:64557] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 01:48:45.169965 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 157.254.164.70:64557] Traceback (most recent call last):
+[Fri Apr 26 01:48:45.169991 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 157.254.164.70:64557]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 01:48:45.169994 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 157.254.164.70:64557]     from app import app as application
+[Fri Apr 26 01:48:45.169998 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 157.254.164.70:64557]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 01:48:45.170000 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 157.254.164.70:64557]     from extraction_face_to_csv import extraction
+[Fri Apr 26 01:48:45.170005 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 157.254.164.70:64557]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 01:48:45.170007 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 157.254.164.70:64557]     class extraction():
+[Fri Apr 26 01:48:45.170011 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 157.254.164.70:64557]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 01:48:45.170026 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 157.254.164.70:64557]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 01:48:45.170037 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 157.254.164.70:64557] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 01:48:46.058438 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 157.254.164.70:65143] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 01:48:46.058514 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 157.254.164.70:65143] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 01:48:46.058633 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 157.254.164.70:65143] Traceback (most recent call last):
+[Fri Apr 26 01:48:46.058660 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 157.254.164.70:65143]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 01:48:46.058663 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 157.254.164.70:65143]     from app import app as application
+[Fri Apr 26 01:48:46.058667 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 157.254.164.70:65143]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 01:48:46.058670 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 157.254.164.70:65143]     from extraction_face_to_csv import extraction
+[Fri Apr 26 01:48:46.058673 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 157.254.164.70:65143]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 01:48:46.058676 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 157.254.164.70:65143]     class extraction():
+[Fri Apr 26 01:48:46.058679 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 157.254.164.70:65143]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 01:48:46.058682 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 157.254.164.70:65143]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 01:48:46.058693 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 157.254.164.70:65143] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 01:54:04.186899 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.224.128.43:50506] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 01:54:04.186982 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.224.128.43:50506] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 01:54:04.187102 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.224.128.43:50506] Traceback (most recent call last):
+[Fri Apr 26 01:54:04.187128 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.224.128.43:50506]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 01:54:04.187132 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.224.128.43:50506]     from app import app as application
+[Fri Apr 26 01:54:04.187136 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.224.128.43:50506]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 01:54:04.187138 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.224.128.43:50506]     from extraction_face_to_csv import extraction
+[Fri Apr 26 01:54:04.187143 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.224.128.43:50506]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 01:54:04.187145 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.224.128.43:50506]     class extraction():
+[Fri Apr 26 01:54:04.187168 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.224.128.43:50506]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 01:54:04.187171 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.224.128.43:50506]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 01:54:04.187183 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.224.128.43:50506] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 02:10:29.605610 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:51758] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 02:10:29.605693 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:51758] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 02:10:29.605815 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:51758] Traceback (most recent call last):
+[Fri Apr 26 02:10:29.605843 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:51758]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 02:10:29.605846 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:51758]     from app import app as application
+[Fri Apr 26 02:10:29.605850 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:51758]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 02:10:29.605853 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:51758]     from extraction_face_to_csv import extraction
+[Fri Apr 26 02:10:29.605856 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:51758]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 02:10:29.605859 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:51758]     class extraction():
+[Fri Apr 26 02:10:29.605862 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:51758]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 02:10:29.605865 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:51758]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 02:10:29.605877 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:51758] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 02:13:46.894195 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 176.107.188.171:27458] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 02:13:46.894271 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 176.107.188.171:27458] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 02:13:46.894387 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 176.107.188.171:27458] Traceback (most recent call last):
+[Fri Apr 26 02:13:46.894412 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 176.107.188.171:27458]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 02:13:46.894416 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 176.107.188.171:27458]     from app import app as application
+[Fri Apr 26 02:13:46.894419 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 176.107.188.171:27458]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 02:13:46.894422 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 176.107.188.171:27458]     from extraction_face_to_csv import extraction
+[Fri Apr 26 02:13:46.894425 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 176.107.188.171:27458]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 02:13:46.894428 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 176.107.188.171:27458]     class extraction():
+[Fri Apr 26 02:13:46.894444 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 176.107.188.171:27458]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 02:13:46.894447 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 176.107.188.171:27458]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 02:13:46.894457 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 176.107.188.171:27458] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 02:20:03.320718 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 54.37.79.75:51414] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 02:20:03.320829 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 54.37.79.75:51414] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 02:20:03.320953 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 54.37.79.75:51414] Traceback (most recent call last):
+[Fri Apr 26 02:20:03.320980 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 54.37.79.75:51414]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 02:20:03.320983 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 54.37.79.75:51414]     from app import app as application
+[Fri Apr 26 02:20:03.320987 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 54.37.79.75:51414]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 02:20:03.320990 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 54.37.79.75:51414]     from extraction_face_to_csv import extraction
+[Fri Apr 26 02:20:03.320993 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 54.37.79.75:51414]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 02:20:03.320996 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 54.37.79.75:51414]     class extraction():
+[Fri Apr 26 02:20:03.321000 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 54.37.79.75:51414]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 02:20:03.321002 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 54.37.79.75:51414]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 02:20:03.321012 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 54.37.79.75:51414] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 02:20:04.000817 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 54.37.79.75:51718] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 02:20:04.000893 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 54.37.79.75:51718] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 02:20:04.001011 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 54.37.79.75:51718] Traceback (most recent call last):
+[Fri Apr 26 02:20:04.001036 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 54.37.79.75:51718]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 02:20:04.001039 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 54.37.79.75:51718]     from app import app as application
+[Fri Apr 26 02:20:04.001043 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 54.37.79.75:51718]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 02:20:04.001045 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 54.37.79.75:51718]     from extraction_face_to_csv import extraction
+[Fri Apr 26 02:20:04.001049 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 54.37.79.75:51718]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 02:20:04.001051 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 54.37.79.75:51718]     class extraction():
+[Fri Apr 26 02:20:04.001069 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 54.37.79.75:51718]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 02:20:04.001071 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 54.37.79.75:51718]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 02:20:04.001082 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 54.37.79.75:51718] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 03:17:15.391435 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:55764] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 03:17:15.391521 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:55764] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 03:17:15.391649 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:55764] Traceback (most recent call last):
+[Fri Apr 26 03:17:15.391682 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:55764]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 03:17:15.391686 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:55764]     from app import app as application
+[Fri Apr 26 03:17:15.391690 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:55764]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 03:17:15.391693 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:55764]     from extraction_face_to_csv import extraction
+[Fri Apr 26 03:17:15.391696 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:55764]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 03:17:15.391699 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:55764]     class extraction():
+[Fri Apr 26 03:17:15.391702 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:55764]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 03:17:15.391705 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:55764]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 03:17:15.391717 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:55764] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 03:41:00.813564 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.16.38.111:37758] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 03:41:00.813646 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.16.38.111:37758] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 03:41:00.813764 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.16.38.111:37758] Traceback (most recent call last):
+[Fri Apr 26 03:41:00.813789 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.16.38.111:37758]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 03:41:00.813792 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.16.38.111:37758]     from app import app as application
+[Fri Apr 26 03:41:00.813796 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.16.38.111:37758]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 03:41:00.813798 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.16.38.111:37758]     from extraction_face_to_csv import extraction
+[Fri Apr 26 03:41:00.813802 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.16.38.111:37758]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 03:41:00.813816 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.16.38.111:37758]     class extraction():
+[Fri Apr 26 03:41:00.813819 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.16.38.111:37758]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 03:41:00.813822 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.16.38.111:37758]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 03:41:00.813833 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.16.38.111:37758] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 03:51:05.152870 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 51.158.37.186:36342] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 03:51:05.152954 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 51.158.37.186:36342] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 03:51:05.153074 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 51.158.37.186:36342] Traceback (most recent call last):
+[Fri Apr 26 03:51:05.153121 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 51.158.37.186:36342]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 03:51:05.153125 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 51.158.37.186:36342]     from app import app as application
+[Fri Apr 26 03:51:05.153129 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 51.158.37.186:36342]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 03:51:05.153131 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 51.158.37.186:36342]     from extraction_face_to_csv import extraction
+[Fri Apr 26 03:51:05.153135 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 51.158.37.186:36342]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 03:51:05.153138 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 51.158.37.186:36342]     class extraction():
+[Fri Apr 26 03:51:05.153141 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 51.158.37.186:36342]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 03:51:05.153144 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 51.158.37.186:36342]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 03:51:05.153155 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 51.158.37.186:36342] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 03:51:07.493498 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 51.158.37.186:52342] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 03:51:07.493585 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 51.158.37.186:52342] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 03:51:07.493746 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 51.158.37.186:52342] Traceback (most recent call last):
+[Fri Apr 26 03:51:07.493779 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 51.158.37.186:52342]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 03:51:07.493782 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 51.158.37.186:52342]     from app import app as application
+[Fri Apr 26 03:51:07.493787 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 51.158.37.186:52342]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 03:51:07.493789 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 51.158.37.186:52342]     from extraction_face_to_csv import extraction
+[Fri Apr 26 03:51:07.493794 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 51.158.37.186:52342]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 03:51:07.493817 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 51.158.37.186:52342]     class extraction():
+[Fri Apr 26 03:51:07.493823 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 51.158.37.186:52342]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 03:51:07.493827 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 51.158.37.186:52342]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 03:51:07.493845 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 51.158.37.186:52342] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 03:51:08.389991 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 51.158.37.186:52356] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 03:51:08.390071 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 51.158.37.186:52356] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 03:51:08.390198 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 51.158.37.186:52356] Traceback (most recent call last):
+[Fri Apr 26 03:51:08.390248 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 51.158.37.186:52356]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 03:51:08.390254 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 51.158.37.186:52356]     from app import app as application
+[Fri Apr 26 03:51:08.390260 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 51.158.37.186:52356]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 03:51:08.390264 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 51.158.37.186:52356]     from extraction_face_to_csv import extraction
+[Fri Apr 26 03:51:08.390269 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 51.158.37.186:52356]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 03:51:08.390273 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 51.158.37.186:52356]     class extraction():
+[Fri Apr 26 03:51:08.390278 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 51.158.37.186:52356]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 03:51:08.390282 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 51.158.37.186:52356]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 03:51:08.390300 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 51.158.37.186:52356] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 03:51:09.228758 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 51.158.37.186:52372] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 03:51:09.229867 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 51.158.37.186:52372] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 03:51:09.230100 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 51.158.37.186:52372] Traceback (most recent call last):
+[Fri Apr 26 03:51:09.230146 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 51.158.37.186:52372]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 03:51:09.230152 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 51.158.37.186:52372]     from app import app as application
+[Fri Apr 26 03:51:09.230158 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 51.158.37.186:52372]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 03:51:09.230162 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 51.158.37.186:52372]     from extraction_face_to_csv import extraction
+[Fri Apr 26 03:51:09.230169 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 51.158.37.186:52372]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 03:51:09.230191 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 51.158.37.186:52372]     class extraction():
+[Fri Apr 26 03:51:09.230197 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 51.158.37.186:52372]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 03:51:09.230202 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 51.158.37.186:52372]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 03:51:09.230264 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 51.158.37.186:52372] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 03:51:10.145987 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 51.158.37.186:52386] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 03:51:10.146066 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 51.158.37.186:52386] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 03:51:10.146194 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 51.158.37.186:52386] Traceback (most recent call last):
+[Fri Apr 26 03:51:10.146244 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 51.158.37.186:52386]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 03:51:10.146250 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 51.158.37.186:52386]     from app import app as application
+[Fri Apr 26 03:51:10.146256 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 51.158.37.186:52386]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 03:51:10.146260 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 51.158.37.186:52386]     from extraction_face_to_csv import extraction
+[Fri Apr 26 03:51:10.146267 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 51.158.37.186:52386]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 03:51:10.146271 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 51.158.37.186:52386]     class extraction():
+[Fri Apr 26 03:51:10.146277 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 51.158.37.186:52386]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 03:51:10.146282 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 51.158.37.186:52386]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 03:51:10.146299 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 51.158.37.186:52386] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 03:51:10.881333 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 51.158.37.186:52402] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 03:51:10.881418 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 51.158.37.186:52402] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 03:51:10.881545 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 51.158.37.186:52402] Traceback (most recent call last):
+[Fri Apr 26 03:51:10.881573 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 51.158.37.186:52402]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 03:51:10.881576 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 51.158.37.186:52402]     from app import app as application
+[Fri Apr 26 03:51:10.881580 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 51.158.37.186:52402]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 03:51:10.881582 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 51.158.37.186:52402]     from extraction_face_to_csv import extraction
+[Fri Apr 26 03:51:10.881600 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 51.158.37.186:52402]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 03:51:10.881603 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 51.158.37.186:52402]     class extraction():
+[Fri Apr 26 03:51:10.881607 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 51.158.37.186:52402]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 03:51:10.881609 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 51.158.37.186:52402]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 03:51:10.881621 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 51.158.37.186:52402] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 04:09:57.573672 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:47356] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 04:09:57.573752 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:47356] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 04:09:57.573886 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:47356] Traceback (most recent call last):
+[Fri Apr 26 04:09:57.573912 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:47356]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 04:09:57.573915 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:47356]     from app import app as application
+[Fri Apr 26 04:09:57.573919 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:47356]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 04:09:57.573922 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:47356]     from extraction_face_to_csv import extraction
+[Fri Apr 26 04:09:57.573926 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:47356]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 04:09:57.573928 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:47356]     class extraction():
+[Fri Apr 26 04:09:57.573932 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:47356]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 04:09:57.573935 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:47356]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 04:09:57.573945 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:47356] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 04:29:52.792958 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 124.41.240.106:47110] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 04:29:52.793049 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 124.41.240.106:47110] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 04:29:52.793190 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 124.41.240.106:47110] Traceback (most recent call last):
+[Fri Apr 26 04:29:52.793218 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 124.41.240.106:47110]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 04:29:52.793221 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 124.41.240.106:47110]     from app import app as application
+[Fri Apr 26 04:29:52.793225 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 124.41.240.106:47110]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 04:29:52.793228 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 124.41.240.106:47110]     from extraction_face_to_csv import extraction
+[Fri Apr 26 04:29:52.793243 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 124.41.240.106:47110]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 04:29:52.793247 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 124.41.240.106:47110]     class extraction():
+[Fri Apr 26 04:29:52.793252 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 124.41.240.106:47110]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 04:29:52.793256 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 124.41.240.106:47110]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 04:29:52.793273 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 124.41.240.106:47110] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 04:30:06.112033 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 176.58.109.90:26432] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 04:30:06.112114 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 176.58.109.90:26432] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 04:30:06.112242 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 176.58.109.90:26432] Traceback (most recent call last):
+[Fri Apr 26 04:30:06.112279 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 176.58.109.90:26432]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 04:30:06.112284 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 176.58.109.90:26432]     from app import app as application
+[Fri Apr 26 04:30:06.112290 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 176.58.109.90:26432]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 04:30:06.112293 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 176.58.109.90:26432]     from extraction_face_to_csv import extraction
+[Fri Apr 26 04:30:06.112299 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 176.58.109.90:26432]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 04:30:06.112303 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 176.58.109.90:26432]     class extraction():
+[Fri Apr 26 04:30:06.112309 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 176.58.109.90:26432]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 04:30:06.112312 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 176.58.109.90:26432]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 04:30:06.112328 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 176.58.109.90:26432] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 05:01:06.850343 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:58826] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 05:01:06.850432 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:58826] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 05:01:06.850609 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:58826] Traceback (most recent call last):
+[Fri Apr 26 05:01:06.850658 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:58826]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 05:01:06.850662 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:58826]     from app import app as application
+[Fri Apr 26 05:01:06.850666 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:58826]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 05:01:06.850669 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:58826]     from extraction_face_to_csv import extraction
+[Fri Apr 26 05:01:06.850707 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:58826]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 05:01:06.850710 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:58826]     class extraction():
+[Fri Apr 26 05:01:06.850714 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:58826]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 05:01:06.850717 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:58826]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 05:01:06.850730 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:58826] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 05:08:06.944014 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 52.167.144.229:28548] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 05:08:06.944125 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 52.167.144.229:28548] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 05:08:06.944303 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 52.167.144.229:28548] Traceback (most recent call last):
+[Fri Apr 26 05:08:06.944349 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 52.167.144.229:28548]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 05:08:06.944355 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 52.167.144.229:28548]     from app import app as application
+[Fri Apr 26 05:08:06.944361 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 52.167.144.229:28548]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 05:08:06.944365 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 52.167.144.229:28548]     from extraction_face_to_csv import extraction
+[Fri Apr 26 05:08:06.944371 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 52.167.144.229:28548]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 05:08:06.944375 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 52.167.144.229:28548]     class extraction():
+[Fri Apr 26 05:08:06.944382 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 52.167.144.229:28548]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 05:08:06.944386 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 52.167.144.229:28548]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 05:08:06.944404 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 52.167.144.229:28548] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 05:22:19.067804 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 146.19.24.28:56986] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 05:22:19.067912 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 146.19.24.28:56986] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 05:22:19.068099 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 146.19.24.28:56986] Traceback (most recent call last):
+[Fri Apr 26 05:22:19.068142 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 146.19.24.28:56986]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 05:22:19.068147 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 146.19.24.28:56986]     from app import app as application
+[Fri Apr 26 05:22:19.068153 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 146.19.24.28:56986]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 05:22:19.068173 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 146.19.24.28:56986]     from extraction_face_to_csv import extraction
+[Fri Apr 26 05:22:19.068180 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 146.19.24.28:56986]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 05:22:19.068184 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 146.19.24.28:56986]     class extraction():
+[Fri Apr 26 05:22:19.068190 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 146.19.24.28:56986]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 05:22:19.068194 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 146.19.24.28:56986]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 05:22:19.068211 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 146.19.24.28:56986] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 06:03:37.312031 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 212.47.247.6:59360] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 06:03:37.312114 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 212.47.247.6:59360] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 06:03:37.312230 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 212.47.247.6:59360] Traceback (most recent call last):
+[Fri Apr 26 06:03:37.312256 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 212.47.247.6:59360]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 06:03:37.312260 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 212.47.247.6:59360]     from app import app as application
+[Fri Apr 26 06:03:37.312264 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 212.47.247.6:59360]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 06:03:37.312266 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 212.47.247.6:59360]     from extraction_face_to_csv import extraction
+[Fri Apr 26 06:03:37.312270 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 212.47.247.6:59360]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 06:03:37.312272 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 212.47.247.6:59360]     class extraction():
+[Fri Apr 26 06:03:37.312276 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 212.47.247.6:59360]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 06:03:37.312278 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 212.47.247.6:59360]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 06:03:37.312289 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 212.47.247.6:59360] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 06:05:55.641593 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:41984] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 06:05:55.641687 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:41984] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 06:05:55.641853 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:41984] Traceback (most recent call last):
+[Fri Apr 26 06:05:55.641897 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:41984]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 06:05:55.641902 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:41984]     from app import app as application
+[Fri Apr 26 06:05:55.641908 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:41984]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 06:05:55.641929 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:41984]     from extraction_face_to_csv import extraction
+[Fri Apr 26 06:05:55.641936 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:41984]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 06:05:55.641940 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:41984]     class extraction():
+[Fri Apr 26 06:05:55.641946 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:41984]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 06:05:55.641950 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:41984]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 06:05:55.641965 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:41984] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 06:07:10.014213 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 165.232.56.140:36128] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 06:07:10.014321 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 165.232.56.140:36128] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 06:07:10.014497 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 165.232.56.140:36128] Traceback (most recent call last):
+[Fri Apr 26 06:07:10.014548 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 165.232.56.140:36128]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 06:07:10.014553 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 165.232.56.140:36128]     from app import app as application
+[Fri Apr 26 06:07:10.014559 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 165.232.56.140:36128]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 06:07:10.014562 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 165.232.56.140:36128]     from extraction_face_to_csv import extraction
+[Fri Apr 26 06:07:10.014568 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 165.232.56.140:36128]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 06:07:10.014571 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 165.232.56.140:36128]     class extraction():
+[Fri Apr 26 06:07:10.014577 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 165.232.56.140:36128]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 06:07:10.014581 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 165.232.56.140:36128]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 06:07:10.014599 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 165.232.56.140:36128] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 06:07:11.198978 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 165.232.56.140:36140] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 06:07:11.199052 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 165.232.56.140:36140] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 06:07:11.199174 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 165.232.56.140:36140] Traceback (most recent call last):
+[Fri Apr 26 06:07:11.199201 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 165.232.56.140:36140]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 06:07:11.199204 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 165.232.56.140:36140]     from app import app as application
+[Fri Apr 26 06:07:11.199208 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 165.232.56.140:36140]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 06:07:11.199225 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 165.232.56.140:36140]     from extraction_face_to_csv import extraction
+[Fri Apr 26 06:07:11.199230 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 165.232.56.140:36140]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 06:07:11.199232 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 165.232.56.140:36140]     class extraction():
+[Fri Apr 26 06:07:11.199236 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 165.232.56.140:36140]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 06:07:11.199239 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 165.232.56.140:36140]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 06:07:11.199251 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 165.232.56.140:36140] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 06:24:28.265454 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 198.199.93.63:43900] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 06:24:28.265551 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 198.199.93.63:43900] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 06:24:28.265710 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 198.199.93.63:43900] Traceback (most recent call last):
+[Fri Apr 26 06:24:28.265742 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 198.199.93.63:43900]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 06:24:28.265745 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 198.199.93.63:43900]     from app import app as application
+[Fri Apr 26 06:24:28.265749 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 198.199.93.63:43900]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 06:24:28.265751 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 198.199.93.63:43900]     from extraction_face_to_csv import extraction
+[Fri Apr 26 06:24:28.265755 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 198.199.93.63:43900]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 06:24:28.265758 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 198.199.93.63:43900]     class extraction():
+[Fri Apr 26 06:24:28.265762 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 198.199.93.63:43900]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 06:24:28.265764 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 198.199.93.63:43900]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 06:24:28.265776 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 198.199.93.63:43900] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 06:52:38.025849 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 20.107.247.221:51088] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 06:52:38.025939 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 20.107.247.221:51088] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 06:52:38.026065 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 20.107.247.221:51088] Traceback (most recent call last):
+[Fri Apr 26 06:52:38.026092 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 20.107.247.221:51088]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 06:52:38.026095 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 20.107.247.221:51088]     from app import app as application
+[Fri Apr 26 06:52:38.026113 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 20.107.247.221:51088]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 06:52:38.026116 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 20.107.247.221:51088]     from extraction_face_to_csv import extraction
+[Fri Apr 26 06:52:38.026120 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 20.107.247.221:51088]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 06:52:38.026122 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 20.107.247.221:51088]     class extraction():
+[Fri Apr 26 06:52:38.026126 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 20.107.247.221:51088]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 06:52:38.026129 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 20.107.247.221:51088]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 06:52:38.026140 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 20.107.247.221:51088] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 06:52:38.877290 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 20.107.247.221:51440] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 06:52:38.877364 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 20.107.247.221:51440] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 06:52:38.877492 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 20.107.247.221:51440] Traceback (most recent call last):
+[Fri Apr 26 06:52:38.877520 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 20.107.247.221:51440]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 06:52:38.877523 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 20.107.247.221:51440]     from app import app as application
+[Fri Apr 26 06:52:38.877528 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 20.107.247.221:51440]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 06:52:38.877530 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 20.107.247.221:51440]     from extraction_face_to_csv import extraction
+[Fri Apr 26 06:52:38.877534 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 20.107.247.221:51440]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 06:52:38.877537 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 20.107.247.221:51440]     class extraction():
+[Fri Apr 26 06:52:38.877540 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 20.107.247.221:51440]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 06:52:38.877543 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 20.107.247.221:51440]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 06:52:38.877555 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 20.107.247.221:51440] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 07:03:23.552535 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 179.43.190.218:36984] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 07:03:23.552641 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 179.43.190.218:36984] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 07:03:23.552871 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 179.43.190.218:36984] Traceback (most recent call last):
+[Fri Apr 26 07:03:23.552920 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 179.43.190.218:36984]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 07:03:23.552924 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 179.43.190.218:36984]     from app import app as application
+[Fri Apr 26 07:03:23.552948 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 179.43.190.218:36984]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 07:03:23.552952 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 179.43.190.218:36984]     from extraction_face_to_csv import extraction
+[Fri Apr 26 07:03:23.552958 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 179.43.190.218:36984]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 07:03:23.552962 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 179.43.190.218:36984]     class extraction():
+[Fri Apr 26 07:03:23.552968 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 179.43.190.218:36984]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 07:03:23.552972 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 179.43.190.218:36984]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 07:03:23.552990 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 179.43.190.218:36984] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 07:15:31.720383 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:49762] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 07:15:31.720485 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:49762] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 07:15:31.720645 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:49762] Traceback (most recent call last):
+[Fri Apr 26 07:15:31.720689 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:49762]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 07:15:31.720694 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:49762]     from app import app as application
+[Fri Apr 26 07:15:31.720700 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:49762]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 07:15:31.720704 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:49762]     from extraction_face_to_csv import extraction
+[Fri Apr 26 07:15:31.720710 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:49762]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 07:15:31.720714 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:49762]     class extraction():
+[Fri Apr 26 07:15:31.720720 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:49762]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 07:15:31.720724 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:49762]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 07:15:31.720742 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 143.110.222.166:49762] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 07:26:55.889280 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.224.128.43:46396] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 07:26:55.889362 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.224.128.43:46396] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 07:26:55.889487 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.224.128.43:46396] Traceback (most recent call last):
+[Fri Apr 26 07:26:55.889516 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.224.128.43:46396]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 07:26:55.889532 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.224.128.43:46396]     from app import app as application
+[Fri Apr 26 07:26:55.889536 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.224.128.43:46396]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 07:26:55.889539 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.224.128.43:46396]     from extraction_face_to_csv import extraction
+[Fri Apr 26 07:26:55.889543 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.224.128.43:46396]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 07:26:55.889545 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.224.128.43:46396]     class extraction():
+[Fri Apr 26 07:26:55.889549 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.224.128.43:46396]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 07:26:55.889552 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.224.128.43:46396]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 07:26:55.889563 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 185.224.128.43:46396] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 07:42:53.399568 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 54.37.79.75:60432] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 07:42:53.399650 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 54.37.79.75:60432] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 07:42:53.399770 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 54.37.79.75:60432] Traceback (most recent call last):
+[Fri Apr 26 07:42:53.399796 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 54.37.79.75:60432]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 07:42:53.399799 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 54.37.79.75:60432]     from app import app as application
+[Fri Apr 26 07:42:53.399803 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 54.37.79.75:60432]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 07:42:53.399806 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 54.37.79.75:60432]     from extraction_face_to_csv import extraction
+[Fri Apr 26 07:42:53.399810 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 54.37.79.75:60432]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 07:42:53.399812 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 54.37.79.75:60432]     class extraction():
+[Fri Apr 26 07:42:53.399816 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 54.37.79.75:60432]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 07:42:53.399818 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 54.37.79.75:60432]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 07:42:53.399828 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 54.37.79.75:60432] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 07:42:54.133848 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 54.37.79.75:33054] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 07:42:54.133919 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 54.37.79.75:33054] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 07:42:54.134038 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 54.37.79.75:33054] Traceback (most recent call last):
+[Fri Apr 26 07:42:54.134064 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 54.37.79.75:33054]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 07:42:54.134081 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 54.37.79.75:33054]     from app import app as application
+[Fri Apr 26 07:42:54.134085 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 54.37.79.75:33054]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 07:42:54.134087 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 54.37.79.75:33054]     from extraction_face_to_csv import extraction
+[Fri Apr 26 07:42:54.134091 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 54.37.79.75:33054]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 07:42:54.134093 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 54.37.79.75:33054]     class extraction():
+[Fri Apr 26 07:42:54.134097 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 54.37.79.75:33054]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 07:42:54.134099 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 54.37.79.75:33054]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 07:42:54.134111 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 54.37.79.75:33054] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 07:58:25.103379 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 185.16.38.111:37356] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 07:58:25.103487 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 185.16.38.111:37356] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 07:58:25.103730 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 185.16.38.111:37356] Traceback (most recent call last):
+[Fri Apr 26 07:58:25.103773 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 185.16.38.111:37356]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 07:58:25.103777 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 185.16.38.111:37356]     from app import app as application
+[Fri Apr 26 07:58:25.103784 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 185.16.38.111:37356]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 07:58:25.103787 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 185.16.38.111:37356]     from extraction_face_to_csv import extraction
+[Fri Apr 26 07:58:25.103793 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 185.16.38.111:37356]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 07:58:25.103797 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 185.16.38.111:37356]     class extraction():
+[Fri Apr 26 07:58:25.103803 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 185.16.38.111:37356]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 07:58:25.103807 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 185.16.38.111:37356]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 07:58:25.103824 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 185.16.38.111:37356] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 08:02:14.301448 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:59286] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 08:02:14.301541 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:59286] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 08:02:14.301671 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:59286] Traceback (most recent call last):
+[Fri Apr 26 08:02:14.301699 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:59286]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 08:02:14.301714 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:59286]     from app import app as application
+[Fri Apr 26 08:02:14.301719 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:59286]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 08:02:14.301721 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:59286]     from extraction_face_to_csv import extraction
+[Fri Apr 26 08:02:14.301725 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:59286]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 08:02:14.301727 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:59286]     class extraction():
+[Fri Apr 26 08:02:14.301731 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:59286]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 08:02:14.301734 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:59286]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 08:02:14.301746 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 143.110.222.166:59286] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 08:45:50.005301 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 122.178.48.245:1218] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 08:45:50.005400 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 122.178.48.245:1218] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 08:45:50.005521 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 122.178.48.245:1218] Traceback (most recent call last):
+[Fri Apr 26 08:45:50.005548 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 122.178.48.245:1218]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 08:45:50.005551 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 122.178.48.245:1218]     from app import app as application
+[Fri Apr 26 08:45:50.005555 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 122.178.48.245:1218]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 08:45:50.005558 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 122.178.48.245:1218]     from extraction_face_to_csv import extraction
+[Fri Apr 26 08:45:50.005561 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 122.178.48.245:1218]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 08:45:50.005564 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 122.178.48.245:1218]     class extraction():
+[Fri Apr 26 08:45:50.005568 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 122.178.48.245:1218]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 08:45:50.005571 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 122.178.48.245:1218]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 08:45:50.005582 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 122.178.48.245:1218] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 08:46:04.213248 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 122.178.48.245:1229] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 08:46:04.213331 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 122.178.48.245:1229] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 08:46:04.213499 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 122.178.48.245:1229] Traceback (most recent call last):
+[Fri Apr 26 08:46:04.213530 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 122.178.48.245:1229]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 08:46:04.213543 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 122.178.48.245:1229]     from app import app as application
+[Fri Apr 26 08:46:04.213547 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 122.178.48.245:1229]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 08:46:04.213549 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 122.178.48.245:1229]     from extraction_face_to_csv import extraction
+[Fri Apr 26 08:46:04.213553 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 122.178.48.245:1229]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 08:46:04.213556 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 122.178.48.245:1229]     class extraction():
+[Fri Apr 26 08:46:04.213559 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 122.178.48.245:1229]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 08:46:04.213562 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 122.178.48.245:1229]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 08:46:04.213573 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 122.178.48.245:1229] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 08:46:46.983956 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 54.37.79.75:38904] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 08:46:46.984035 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 54.37.79.75:38904] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 08:46:46.984151 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 54.37.79.75:38904] Traceback (most recent call last):
+[Fri Apr 26 08:46:46.984185 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 54.37.79.75:38904]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 08:46:46.984190 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 54.37.79.75:38904]     from app import app as application
+[Fri Apr 26 08:46:46.984196 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 54.37.79.75:38904]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 08:46:46.984199 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 54.37.79.75:38904]     from extraction_face_to_csv import extraction
+[Fri Apr 26 08:46:46.984205 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 54.37.79.75:38904]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 08:46:46.984209 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 54.37.79.75:38904]     class extraction():
+[Fri Apr 26 08:46:46.984214 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 54.37.79.75:38904]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 08:46:46.984217 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 54.37.79.75:38904]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 08:46:46.984233 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 54.37.79.75:38904] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 08:46:47.691177 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 54.37.79.75:39584] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 08:46:47.691248 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 54.37.79.75:39584] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 08:46:47.691364 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 54.37.79.75:39584] Traceback (most recent call last):
+[Fri Apr 26 08:46:47.691404 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 54.37.79.75:39584]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 08:46:47.691407 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 54.37.79.75:39584]     from app import app as application
+[Fri Apr 26 08:46:47.691411 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 54.37.79.75:39584]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 08:46:47.691413 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 54.37.79.75:39584]     from extraction_face_to_csv import extraction
+[Fri Apr 26 08:46:47.691417 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 54.37.79.75:39584]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 08:46:47.691419 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 54.37.79.75:39584]     class extraction():
+[Fri Apr 26 08:46:47.691423 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 54.37.79.75:39584]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 08:46:47.691425 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 54.37.79.75:39584]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 08:46:47.691437 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 54.37.79.75:39584] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 08:46:53.666683 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 122.178.48.245:1293] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 08:46:53.667562 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 122.178.48.245:1293] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 08:46:53.667698 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 122.178.48.245:1293] Traceback (most recent call last):
+[Fri Apr 26 08:46:53.667726 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 122.178.48.245:1293]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 08:46:53.667729 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 122.178.48.245:1293]     from app import app as application
+[Fri Apr 26 08:46:53.667734 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 122.178.48.245:1293]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 08:46:53.667736 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 122.178.48.245:1293]     from extraction_face_to_csv import extraction
+[Fri Apr 26 08:46:53.667741 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 122.178.48.245:1293]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 08:46:53.667743 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 122.178.48.245:1293]     class extraction():
+[Fri Apr 26 08:46:53.667747 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 122.178.48.245:1293]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 08:46:53.667750 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 122.178.48.245:1293]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 08:46:53.667782 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 122.178.48.245:1293] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 08:48:03.804611 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 122.178.48.245:1313] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 08:48:03.804692 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 122.178.48.245:1313] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 08:48:03.804844 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 122.178.48.245:1313] Traceback (most recent call last):
+[Fri Apr 26 08:48:03.804884 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 122.178.48.245:1313]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 08:48:03.804887 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 122.178.48.245:1313]     from app import app as application
+[Fri Apr 26 08:48:03.804891 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 122.178.48.245:1313]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 08:48:03.804893 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 122.178.48.245:1313]     from extraction_face_to_csv import extraction
+[Fri Apr 26 08:48:03.804897 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 122.178.48.245:1313]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 08:48:03.804900 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 122.178.48.245:1313]     class extraction():
+[Fri Apr 26 08:48:03.804903 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 122.178.48.245:1313]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 08:48:03.804906 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 122.178.48.245:1313]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 08:48:03.804917 2024] [wsgi:error] [pid 37880:tid 139622318671424] [remote 122.178.48.245:1313] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 08:48:14.006961 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 122.178.48.245:1315] mod_wsgi (pid=37880): Failed to exec Python script file '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 08:48:14.008254 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 122.178.48.245:1315] mod_wsgi (pid=37880): Exception occurred processing WSGI script '/var/www/face/face/app.wsgi'.
+[Fri Apr 26 08:48:14.008414 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 122.178.48.245:1315] Traceback (most recent call last):
+[Fri Apr 26 08:48:14.008443 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 122.178.48.245:1315]   File "/var/www/face/face/app.wsgi", line 6, in <module>
+[Fri Apr 26 08:48:14.008447 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 122.178.48.245:1315]     from app import app as application
+[Fri Apr 26 08:48:14.008451 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 122.178.48.245:1315]   File "/var/www/face/face/app.py", line 10, in <module>
+[Fri Apr 26 08:48:14.008453 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 122.178.48.245:1315]     from extraction_face_to_csv import extraction
+[Fri Apr 26 08:48:14.008457 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 122.178.48.245:1315]   File "/var/www/face/face/extraction_face_to_csv.py", line 10, in <module>
+[Fri Apr 26 08:48:14.008460 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 122.178.48.245:1315]     class extraction():
+[Fri Apr 26 08:48:14.008463 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 122.178.48.245:1315]   File "/var/www/face/face/extraction_face_to_csv.py", line 23, in extraction
+[Fri Apr 26 08:48:14.008466 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 122.178.48.245:1315]     predictor = dlib.shape_predictor('data/data_dlib/shape_predictor_68_face_landmarks.dat')
+[Fri Apr 26 08:48:14.008478 2024] [wsgi:error] [pid 37880:tid 139622293493312] [remote 122.178.48.245:1315] RuntimeError: Unable to open data/data_dlib/shape_predictor_68_face_landmarks.dat
+[Fri Apr 26 08:56:00.010402 2024] [wsgi:error] [pid 44827:tid 139647318070848] /var/www/face/face/extraction_face_to_csv.py:92: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+[Fri Apr 26 08:56:00.010761 2024] [wsgi:error] [pid 44827:tid 139647318070848]   if features_mean_personX is not -1:
+[Fri Apr 26 08:56:03.491583 2024] [wsgi:error] [pid 44827:tid 139647318070848] [remote 122.178.48.245:1531] [2024-04-26 08:56:03,489] ERROR in app: Exception on /take_attendance [POST]
+[Fri Apr 26 08:56:03.492117 2024] [wsgi:error] [pid 44827:tid 139647318070848] [remote 122.178.48.245:1531] Traceback (most recent call last):
+[Fri Apr 26 08:56:03.492223 2024] [wsgi:error] [pid 44827:tid 139647318070848] [remote 122.178.48.245:1531]   File "/var/www/face/venv/lib/python3.10/site-packages/flask/app.py", line 1473, in wsgi_app
+[Fri Apr 26 08:56:03.492266 2024] [wsgi:error] [pid 44827:tid 139647318070848] [remote 122.178.48.245:1531]     response = self.full_dispatch_request()
+[Fri Apr 26 08:56:03.492307 2024] [wsgi:error] [pid 44827:tid 139647318070848] [remote 122.178.48.245:1531]   File "/var/www/face/venv/lib/python3.10/site-packages/flask/app.py", line 882, in full_dispatch_request
+[Fri Apr 26 08:56:03.492376 2024] [wsgi:error] [pid 44827:tid 139647318070848] [remote 122.178.48.245:1531]     rv = self.handle_user_exception(e)
+[Fri Apr 26 08:56:03.492418 2024] [wsgi:error] [pid 44827:tid 139647318070848] [remote 122.178.48.245:1531]   File "/var/www/face/venv/lib/python3.10/site-packages/flask/app.py", line 880, in full_dispatch_request
+[Fri Apr 26 08:56:03.492454 2024] [wsgi:error] [pid 44827:tid 139647318070848] [remote 122.178.48.245:1531]     rv = self.dispatch_request()
+[Fri Apr 26 08:56:03.492505 2024] [wsgi:error] [pid 44827:tid 139647318070848] [remote 122.178.48.245:1531]   File "/var/www/face/venv/lib/python3.10/site-packages/flask/app.py", line 865, in dispatch_request
+[Fri Apr 26 08:56:03.492545 2024] [wsgi:error] [pid 44827:tid 139647318070848] [remote 122.178.48.245:1531]     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+[Fri Apr 26 08:56:03.492581 2024] [wsgi:error] [pid 44827:tid 139647318070848] [remote 122.178.48.245:1531]   File "/var/www/face/face/app.py", line 194, in take_attendance
+[Fri Apr 26 08:56:03.492616 2024] [wsgi:error] [pid 44827:tid 139647318070848] [remote 122.178.48.245:1531]     if not validUser(user_id):
+[Fri Apr 26 08:56:03.492659 2024] [wsgi:error] [pid 44827:tid 139647318070848] [remote 122.178.48.245:1531]   File "/var/www/face/face/app.py", line 37, in validUser
+[Fri Apr 26 08:56:03.492704 2024] [wsgi:error] [pid 44827:tid 139647318070848] [remote 122.178.48.245:1531]     person_list = os.listdir("data/export/")
+[Fri Apr 26 08:56:03.492753 2024] [wsgi:error] [pid 44827:tid 139647318070848] [remote 122.178.48.245:1531] FileNotFoundError: [Errno 2] No such file or directory: 'data/export/'
+[Fri Apr 26 08:56:16.833797 2024] [wsgi:error] [pid 44827:tid 139647284500032] [remote 122.178.48.245:1537] [2024-04-26 08:56:16,833] ERROR in app: Exception on /take_attendance [POST]
+[Fri Apr 26 08:56:16.834365 2024] [wsgi:error] [pid 44827:tid 139647284500032] [remote 122.178.48.245:1537] Traceback (most recent call last):
+[Fri Apr 26 08:56:16.834460 2024] [wsgi:error] [pid 44827:tid 139647284500032] [remote 122.178.48.245:1537]   File "/var/www/face/venv/lib/python3.10/site-packages/flask/app.py", line 1473, in wsgi_app
+[Fri Apr 26 08:56:16.834512 2024] [wsgi:error] [pid 44827:tid 139647284500032] [remote 122.178.48.245:1537]     response = self.full_dispatch_request()
+[Fri Apr 26 08:56:16.834563 2024] [wsgi:error] [pid 44827:tid 139647284500032] [remote 122.178.48.245:1537]   File "/var/www/face/venv/lib/python3.10/site-packages/flask/app.py", line 882, in full_dispatch_request
+[Fri Apr 26 08:56:16.834609 2024] [wsgi:error] [pid 44827:tid 139647284500032] [remote 122.178.48.245:1537]     rv = self.handle_user_exception(e)
+[Fri Apr 26 08:56:16.834645 2024] [wsgi:error] [pid 44827:tid 139647284500032] [remote 122.178.48.245:1537]   File "/var/www/face/venv/lib/python3.10/site-packages/flask/app.py", line 880, in full_dispatch_request
+[Fri Apr 26 08:56:16.834681 2024] [wsgi:error] [pid 44827:tid 139647284500032] [remote 122.178.48.245:1537]     rv = self.dispatch_request()
+[Fri Apr 26 08:56:16.834716 2024] [wsgi:error] [pid 44827:tid 139647284500032] [remote 122.178.48.245:1537]   File "/var/www/face/venv/lib/python3.10/site-packages/flask/app.py", line 865, in dispatch_request
+[Fri Apr 26 08:56:16.834752 2024] [wsgi:error] [pid 44827:tid 139647284500032] [remote 122.178.48.245:1537]     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+[Fri Apr 26 08:56:16.834803 2024] [wsgi:error] [pid 44827:tid 139647284500032] [remote 122.178.48.245:1537]   File "/var/www/face/face/app.py", line 194, in take_attendance
+[Fri Apr 26 08:56:16.834838 2024] [wsgi:error] [pid 44827:tid 139647284500032] [remote 122.178.48.245:1537]     if not validUser(user_id):
+[Fri Apr 26 08:56:16.834873 2024] [wsgi:error] [pid 44827:tid 139647284500032] [remote 122.178.48.245:1537]   File "/var/www/face/face/app.py", line 37, in validUser
+[Fri Apr 26 08:56:16.834909 2024] [wsgi:error] [pid 44827:tid 139647284500032] [remote 122.178.48.245:1537]     person_list = os.listdir("data/export/")
+[Fri Apr 26 08:56:16.834945 2024] [wsgi:error] [pid 44827:tid 139647284500032] [remote 122.178.48.245:1537] FileNotFoundError: [Errno 2] No such file or directory: 'data/export/'
