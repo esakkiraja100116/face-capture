@@ -66,8 +66,8 @@ class Face_Recognizer:
 
     #  "features_all.csv"  / Get known faces from "features_all.csv"
     def get_face_database(self,user_id):
-        if os.path.exists(f"data/export/{user_id}.csv"):
-            path_features_known_csv = f"data/export/{user_id}.csv"
+        if os.path.exists(f"/var/www/face/face/data/export/{user_id}.csv"):
+            path_features_known_csv = f"/var/www/face/face/data/export/{user_id}.csv"
             csv_rd = pd.read_csv(path_features_known_csv, header=None)
             for i in range(csv_rd.shape[0]):
                 features_someone_arr = []
@@ -155,7 +155,7 @@ class Face_Recognizer:
                 # img_rd = dlib.load_rgb_image()
                 
                 #  Load the image
-                img_rd = cv2.imread('data/check/'+img_file)
+                img_rd = cv2.imread('/var/www/face/face/data/check/'+img_file)
                 # Convert the image to grayscale
                 gray_image = cv2.cvtColor(img_rd, cv2.COLOR_BGR2GRAY)
                 # Perform histogram equalization to improve contrast

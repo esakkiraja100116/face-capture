@@ -21,7 +21,7 @@ def detect_face(image_path):
         return False
 
 # Example usage:
-image_path = "data/data_faces_from_camera/person_1_test32raja/129014e8cab44ba49d6815f3865559d0.jpg"
+image_path = "/var/www/face/face/data/data_faces_from_camera/person_1_test32raja/129014e8cab44ba49d6815f3865559d0.jpg"
 
 if detect_face(image_path):
     print("Face detected!")

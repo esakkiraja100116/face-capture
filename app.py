@@ -23,7 +23,7 @@ app = Flask(__name__)
 4. Delete -> user_id => img, csv [done]
 '''
 
-UPLOAD_FOLDER = 'data/data_faces_from_camera/person_'
+UPLOAD_FOLDER = '/var/www/face/face/data/data_faces_from_camera/person_'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 app.config['MAX_CONTENT_LENGTH'] = 5 * 1024 * 1024  # 16MB limit
 lib = libs()
@@ -34,7 +34,7 @@ def validUser(user_id):
     if not user_id:
         return False
     userExists = False
-    person_list = os.listdir("data/export/")
+    person_list = os.listdir("/var/www/face/face/data/export/")
     for person in person_list:
         if person == user_id+".csv":
             userExists = True
@@ -153,8 +153,8 @@ def delete_userid():
             'message': 'User ID is not provided!'
         }, 400  # Bad request if user_id is not provided
 
-    folder_path = "data/data_faces_from_camera/"  # Update this with the path to your folder
-    export_path = f"data/export/{user_id}.csv" 
+    folder_path = "/var/www/face/face/data/data_faces_from_camera/"  # Update this with the path to your folder
+    export_path = f"/var/www/face/face/data/export/{user_id}.csv" 
     # Get the list of files in the folder
     files = os.listdir(folder_path)
     deleted_files = []

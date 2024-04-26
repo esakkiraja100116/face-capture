@@ -32,7 +32,7 @@ class libs():
         return user_folder
     
     def take_latest_count(self,):
-        folder_path = "data/data_faces_from_camera/"  # Update this with the path to your folder
+        folder_path = "/var/www/face/face/data/data_faces_from_camera/"  # Update this with the path to your folder
 
         # Get the list of files in the folder
         files = os.listdir(folder_path)
@@ -40,7 +40,7 @@ class libs():
         return str(len(files) + 1) + "_"
     
     def check_duplicate(self,user_id):
-        folder_path = "data/data_faces_from_camera/"  # Update this with the path to your folder
+        folder_path = "/var/www/face/face/data/data_faces_from_camera/"  # Update this with the path to your folder
         old_name = False
         # Get the list of files in the folder
         files = os.listdir(folder_path)

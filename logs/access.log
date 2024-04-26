@@ -338,3 +338,6 @@
 122.178.48.245 - - [26/Apr/2024:08:48:13 +0000] "POST /take_attendance HTTP/1.1" 500 803 "-" "PostmanRuntime/7.37.3"
 122.178.48.245 - - [26/Apr/2024:08:55:59 +0000] "POST /take_attendance HTTP/1.1" 500 452 "-" "PostmanRuntime/7.37.3"
 122.178.48.245 - - [26/Apr/2024:08:56:16 +0000] "POST /take_attendance HTTP/1.1" 500 452 "-" "PostmanRuntime/7.37.3"
+106.53.192.9 - - [26/Apr/2024:08:58:26 +0000] "GET /phpmyadmin/index.php HTTP/1.1" 404 419 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3464.0 Safari/537.36"
+106.53.192.9 - - [26/Apr/2024:08:58:27 +0000] "GET /pmd/index.php HTTP/1.1" 404 418 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3464.0 Safari/537.36"
+106.53.192.9 - - [26/Apr/2024:08:58:27 +0000] "GET /phpmyadmin4.8.5/index.php HTTP/1.1" 404 418 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3464.0 Safari/537.36"

@@ -78,10 +78,10 @@ class extraction():
 
     def main(self, user_id):
         logging.basicConfig(level=logging.INFO)
-        person_list = os.listdir("data/data_faces_from_camera/")
+        person_list = os.listdir("/var/www/face/face/data/data_faces_from_camera/")
         person_list.sort()
 
-        with open(f"data/export/{user_id}.csv", "w", newline="") as csvfile:
+        with open(f"/var/www/face/face/data/export/{user_id}.csv", "w", newline="") as csvfile:
             writer = csv.writer(csvfile)
             for person in person_list:
                 print(person)
